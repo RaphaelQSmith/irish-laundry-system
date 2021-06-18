@@ -20,7 +20,8 @@
 .headerInfo{
     flex-wrap: wrap;
     flex-direction: column;
-    align-items: flex-start;    
+    align-items: flex-start;
+    margin-top: 1rem;   
 }
 .headerBts{
     width: 10rem;

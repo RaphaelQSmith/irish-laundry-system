@@ -1,5 +1,7 @@
 import React from 'react'
 import styles from './components.module.css'
+import Button from 'react-bootstrap/Button';
+import { ButtonGroup } from 'react-bootstrap';
 
 export default function Header() {
     return (
@@ -14,13 +16,15 @@ export default function Header() {
                 </div>
             </header>
             <div className={styles.buttonContainer}>
-                <button className={styles.headerBts}>Home</button>
-                <button className={styles.headerBts}>Services</button>
-                <button className={styles.headerBts}>Rental</button>
-                <button className={styles.headerBts}>Equipment</button>
-                <button className={styles.headerBts}>Clients</button>
-                <button className={styles.headerBts}>Blog</button>
-                <button className={styles.headerBts}>About Us</button>
+                <ButtonGroup size="sm" className="mb-2">
+                    <Button className={styles.headerBts} variant="info">Home</Button>
+                    <Button className={styles.headerBts} variant="info">Services</Button>
+                    <Button className={styles.headerBts} variant="info">Rental</Button>
+                    <Button className={styles.headerBts} variant="info">Equipment</Button>
+                    <Button className={styles.headerBts} variant="info">Clients</Button>
+                    <Button className={styles.headerBts} variant="info">Blog</Button>
+                    <Button className={styles.headerBts} variant="info">About Us</Button>
+                </ButtonGroup>
             </div>
         </div>
     )
