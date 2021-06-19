@@ -4,9 +4,9 @@ import { Container, Navbar } from 'react-bootstrap'
 export default function Footer() {
     return (
         <div>
-            <Navbar fixed="bottom" >
+            <Navbar>
                 <Container>
-                    <Navbar.Brand href="#home">Navbar with text</Navbar.Brand>
+                    <Navbar.Brand href="#home">Irish Laundry Systems</Navbar.Brand>
                     <Navbar.Toggle />
                     <Navbar.Collapse className="justify-content-end">
                     <Navbar.Text>
