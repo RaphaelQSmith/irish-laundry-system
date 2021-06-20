@@ -5,17 +5,15 @@ import styles from './components.module.css'
 export default function HeaderButtons() {
     return (
         <div>
-            <div className={styles.buttonContainer}>
-                <ListGroup horizontal>
-                    <ListGroup.Item className={styles.headerBts}>ListGroup</ListGroup.Item>
-                    <ListGroup.Item className={styles.headerBts}>This</ListGroup.Item>
-                    <ListGroup.Item className={styles.headerBts}>renders</ListGroup.Item>
-                    <ListGroup.Item className={styles.headerBts}>horizontally!</ListGroup.Item>
-                    <ListGroup.Item className={styles.headerBts}>ListGroup</ListGroup.Item>
-                    <ListGroup.Item className={styles.headerBts}>renders</ListGroup.Item>
-                    <ListGroup.Item className={styles.headerBts}>horizontally!</ListGroup.Item>
-                </ListGroup>
-            </div>
+            <ListGroup horizontal className={styles.buttonContainer}>
+                <ListGroup.Item className={styles.headerBts}> <a href="/"> ListGroup</a></ListGroup.Item>
+                <ListGroup.Item className={styles.headerBts}> <a href="/"> ListGroup</a></ListGroup.Item>
+                <ListGroup.Item className={styles.headerBts}> <a href="/"> ListGroup</a></ListGroup.Item>
+                <ListGroup.Item className={styles.headerBts}> <a href="/"> ListGroup</a></ListGroup.Item>
+                <ListGroup.Item className={styles.headerBts}> <a href="/"> ListGroup</a></ListGroup.Item>
+                <ListGroup.Item className={styles.headerBts}> <a href="/"> ListGroup</a></ListGroup.Item>
+                <ListGroup.Item className={styles.headerBts}> <a href="/"> ListGroup</a></ListGroup.Item>
+            </ListGroup>
         </div>
     )
 }

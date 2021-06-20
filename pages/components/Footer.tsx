@@ -1,15 +1,16 @@
 import React from 'react'
 import { Container, Navbar } from 'react-bootstrap'
+import styles from './components.module.css'
 
 export default function Footer() {
     return (
         <div>
-            <Navbar>
+            <Navbar className={styles.footerStyle}>
                 <Container>
-                    <Navbar.Brand href="#home">Irish Laundry Systems</Navbar.Brand>
+                    <Navbar.Brand  className={styles.footerLink} href="#home">Irish Laundry Systems</Navbar.Brand>
                     <Navbar.Toggle />
                     <Navbar.Collapse className="justify-content-end">
-                    <Navbar.Text>
+                    <Navbar.Text className={styles.footerText}>
                         Designed by @Raphael Smith || 2021
                     </Navbar.Text>
                     </Navbar.Collapse>
