@@ -1,15 +1,14 @@
 .headerContainer{
     display: flex;
     flex: 1;
-    justify-items: center;
     flex-direction: row;
     flex-wrap: nowrap;
     background-color: rgb(39, 52, 131);
-    /* border-bottom-left-radius: 12px; */
     border-bottom-right-radius: 30px;
     align-items: center;
+    justify-items: center;
     margin-bottom: 1rem;
-    padding: 2rem 2rem 2rem;
+    padding: 4rem 2rem;
     color: azure;
 }
 
@@ -26,13 +25,18 @@
 }
 
 .buttonContainer{
-   display: flex;
-   align-content: space-around;
-   justify-content: space-around;
+   box-sizing: border-box;
+   display: container;
+   flex: 1;
+   align-items: center;
+   justify-items: center;
+   margin: 2rem 0 2rem 0;
+   background-color: rgb(37, 37, 184);
+   width: 100%;
 }
 .headerBts{
+    display: flex;
+    flex: 1;
     border-radius: 4px;
-    width: 100px;
-    min-width: 100px;
 }
 

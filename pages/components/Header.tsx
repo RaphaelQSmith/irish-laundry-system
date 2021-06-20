@@ -15,17 +15,6 @@ export default function Header() {
                     </div>
                 </div>
             </header>
-            <div className={styles.buttonContainer}>
-                <ButtonGroup size="sm" className="mb-2">
-                    <Button className={styles.headerBts} variant="info">Home</Button>
-                    <Button className={styles.headerBts} variant="info">Services</Button>
-                    <Button className={styles.headerBts} variant="info">Rental</Button>
-                    <Button className={styles.headerBts} variant="info">Equipment</Button>
-                    <Button className={styles.headerBts} variant="info">Clients</Button>
-                    <Button className={styles.headerBts} variant="info">Blog</Button>
-                    <Button className={styles.headerBts} variant="info">About Us</Button>
-                </ButtonGroup>
-            </div>
         </div>
     )
 }

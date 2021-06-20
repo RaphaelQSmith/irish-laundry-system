@@ -45,7 +45,7 @@ export default function Home() {
       </Carousel>
 
       <p className={styles.description}>
-        <h4>Our Services</h4>
+        <h4> - Our Services - </h4>
         Success in any laundry starts with identifying the requirements and meeting them in the most efficient way possible. 
         To do this, you need a supplier that does more than simply supply machines.
         With the backing of Electrolux, the world’s largest manufacturer of industrial laundry equipment, 

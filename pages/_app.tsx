@@ -3,6 +3,7 @@ import Header from './components/Header'
 import Footer from './components/Footer'
 import styles from './styles/Home.module.css'
 import 'bootstrap/dist/css/bootstrap.css'
+import HeaderButtons from './components/HeaderButtons'
 
 
 function MyApp({ Component, pageProps }: AppProps) {
@@ -10,6 +11,7 @@ function MyApp({ Component, pageProps }: AppProps) {
     <div className={styles.wrapper}>
         
       <Header />
+      <HeaderButtons />
       <Component {...pageProps} />
       <Footer />
       
