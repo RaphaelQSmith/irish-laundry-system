@@ -40,8 +40,11 @@
 }
 
 .footerStyle{
+    display: flex;
+    flex: 1;
     background-color: rgb(39, 52, 131);
-    padding: 5rem 1rem;
+    padding: 10rem 1rem;
+    height: 8rem;
 }
 .footerText{
     color:white !important;
