@@ -1,4 +1,3 @@
-import Head from 'next/head'
 import React from 'react'
 import { Card, Carousel } from 'react-bootstrap'
 import styles from '../styles/Home.module.css'

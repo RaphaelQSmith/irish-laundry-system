@@ -8,15 +8,11 @@ import HeaderButtons from './components/HeaderButtons'
 
 function MyApp({ Component, pageProps }: AppProps) {
   return(
-    <div className={styles.wrapper}>
-        
+    <div className={styles.wrapper}>    
       <Header />
       <HeaderButtons />
       <Component {...pageProps} />
       <Footer />
-      
-      
-
     </div>
   )
 }

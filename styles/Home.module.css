@@ -24,3 +24,18 @@
     justify-content: space-between;
     margin-bottom: 8rem;
 }
+
+.serviceCard{
+    margin: 1rem 0;
+    justify-content: center;
+    text-align: center;
+    font-weight: 700;   
+}
+
+.serviceCardBody{
+    padding: 7rem 0 7rem 0;
+}
+
+.serviceForm{
+    margin: 4rem 0;
+}
