@@ -8,12 +8,12 @@ export default function HeaderButtons() {
             <ListGroup horizontal className={styles.buttonContainer}>
                 <ListGroup.Item className={styles.headerBts}> <a href="/"> Home</a></ListGroup.Item>
                 <ListGroup.Item className={styles.headerBts}> <a href="/services"> Services</a></ListGroup.Item>
-                <ListGroup.Item className={styles.headerBts}> <a href="/"> Rental</a></ListGroup.Item>
-                <ListGroup.Item className={styles.headerBts}> <a href="/"> Equipment</a></ListGroup.Item>
-                <ListGroup.Item className={styles.headerBts}> <a href="/"> Clients</a></ListGroup.Item>
-                <ListGroup.Item className={styles.headerBts}> <a href="/"> Blog</a></ListGroup.Item>
-                <ListGroup.Item className={styles.headerBts}> <a href="/"> About Us</a></ListGroup.Item>
+                <ListGroup.Item className={styles.headerBts}> <a href="/rental"> Rental</a></ListGroup.Item>
+                <ListGroup.Item className={styles.headerBts}> <a href="/equipment"> Equipment</a></ListGroup.Item>
+                <ListGroup.Item className={styles.headerBts}> <a href="/clients"> Clients</a></ListGroup.Item>
+                <ListGroup.Item className={styles.headerBts}> <a href="/blog"> Blog</a></ListGroup.Item>
+                <ListGroup.Item className={styles.headerBts}> <a href="/aboutus"> About Us</a></ListGroup.Item>
             </ListGroup>
         </div>
     )
-}
+    }
