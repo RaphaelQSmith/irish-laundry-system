@@ -48,22 +48,43 @@
     height: 40vh;
 }
 .equipContainer{
-    margin: 4rem 10rem;
+    display: flex;
+    flex: 1;
+    text-align: center;
+    flex-wrap: wrap;
 }
 .searchList{
     display: flex;
     flex: 1;
     flex-direction: column;
 }
-.equipCard{
+
+.equipRows{
     display: flex;
     flex: 1;
+    width: 300px;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
+
+@media (min-width: 1080px){
+    .equipCard{
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+    }  
+  @media (min-width: 720px){
+    .equipCard{
+        align-items: center;
+        justify-content: center;
+    }
+}
+
 .reviewCards{
     display: flex;
     flex: 1;
     flex-wrap: wrap;
-    justify-content: space-around;
     margin: 5rem 0;
     text-align: center;
     

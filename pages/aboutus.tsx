@@ -42,8 +42,6 @@ export default function aboutus() {
                         </Card.Body>
                     </Card>
                 </div>
-
-                
             </div>
         </div>
     )
