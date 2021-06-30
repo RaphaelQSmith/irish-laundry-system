@@ -1,9 +1,9 @@
 .caroussel{
     display: flex;
     flex: 1;
-    padding: 0 2rem 0 2rem;
+    margin: 2rem 1rem 2rem 1rem;
     align-items: center;
-    justify-content: center;
+    justify-content: center; 
 }
 
 .description{
@@ -48,24 +48,16 @@
     height: 40vh;
 }
 .equipContainer{
-    margin: 4rem 7rem;
-    justify-content: center;
-    align-items: center;
+    margin: 4rem 10rem;
 }
 .searchList{
     display: flex;
     flex: 1;
     flex-direction: column;
-    margin-top: 1rem;
-    text-align: center;
 }
 .equipCard{
     display: flex;
     flex: 1;
-}
-.equip{
-    width: 18rem;
-    margin: 1rem;
 }
 .reviewCards{
     display: flex;

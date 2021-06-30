@@ -7,7 +7,7 @@ export default function aboutus() {
         <div>
             <div className={styles.historyTimeline}>
                 <div>
-                    <Card>
+                    <Card className={styles.contactCard}>
                         <Card.Body>
                             <Card.Title>COMPANIES LOGOS</Card.Title>
                             <Card.Text>
