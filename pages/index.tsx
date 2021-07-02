@@ -4,7 +4,7 @@ import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div>
       <div className={styles.caroussel}>
         <Carousel fade>
           <Carousel.Item>
@@ -47,7 +47,7 @@ export default function Home() {
 
       <div className={styles.description}>
         <p>
-            <h4> - Our Services - </h4>
+          <h4> - Our Services - </h4>
           Success in any laundry starts with identifying the requirements and meeting them in the most efficient way possible.
           To do this, you need a supplier that does more than simply supply machines.
           With the backing of Electrolux, the world’s largest manufacturer of industrial laundry equipment,
@@ -65,7 +65,6 @@ export default function Home() {
               Some quick example text to build on the card title and make up the bulk of
               the card's content.
           </Card.Text>
-
           </Card.Body>
         </Card>
         <Card style={{ width: '18rem' }}>
@@ -76,7 +75,6 @@ export default function Home() {
               Some quick example text to build on the card title and make up the bulk of
               the card's content.
         </Card.Text>
-
           </Card.Body>
         </Card>
         <Card style={{ width: '18rem' }}>
@@ -87,7 +85,6 @@ export default function Home() {
               Some quick example text to build on the card title and make up the bulk of
               the card's content.
           </Card.Text>
-
           </Card.Body>
         </Card>
       </div>

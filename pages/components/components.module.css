@@ -4,7 +4,7 @@
     flex-direction: row;
     flex-wrap: nowrap;
     background-color: rgb(39, 52, 131);
-    border-bottom-right-radius: 30px;
+    border-bottom-right-radius: 60px;
     align-items: center;
     justify-items: center;
     margin-bottom: 1rem;
@@ -37,6 +37,11 @@
 .headerBts{
     flex: 1;
     border-radius: 6px;
+    text-align: center;
+    font-size: 15pt;
+    text-decoration: none;
+    color: inherit;
+
 }
 
 .footerStyle{
