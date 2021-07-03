@@ -13,7 +13,6 @@ export default function services() {
                         <Card.Text>
                             Services description
                         </Card.Text>
-                        <Button variant="primary">Go somewhere</Button>
                     </Card.Body>
                 </Card>
             </div>
@@ -61,7 +60,7 @@ export default function services() {
                         <Form.Label>Problem description</Form.Label>
                         <Form.Control as="textarea" rows={3} />
                     </Form.Group>
-                    <Button variant="primary" type="submit">
+                    <Button variant="success" type="submit" style={{width:"10rem", marginLeft:"40%"}}>
                         Submit
                     </Button>
                 </Form>

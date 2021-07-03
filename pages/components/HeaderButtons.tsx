@@ -4,16 +4,14 @@ import styles from './components.module.css'
 
 export default function HeaderButtons() {
     return (
-        <div>
-            <ListGroup horizontal className={styles.buttonContainer}>
-                <ListGroup.Item variant="secondary text-secondary" className={styles.headerBts}> <a href="/"> Home</a></ListGroup.Item>
-                <ListGroup.Item variant="secondary" className={styles.headerBts}> <a href="/services"> Services</a></ListGroup.Item>
-                <ListGroup.Item variant="secondary" className={styles.headerBts}> <a href="/rental"> Rental</a></ListGroup.Item>
-                <ListGroup.Item variant="secondary" className={styles.headerBts}> <a href="/equipment"> Equipment</a></ListGroup.Item>
-                <ListGroup.Item variant="secondary" className={styles.headerBts}> <a href="/clients"> Clients</a></ListGroup.Item>
-                <ListGroup.Item variant="secondary" className={styles.headerBts}> <a href="/blog"> Blog</a></ListGroup.Item>
-                <ListGroup.Item variant="secondary" className={styles.headerBts}> <a href="/aboutus"> About Us</a></ListGroup.Item>
-            </ListGroup>
+        <div className={styles.buttonContainer}>
+            <Button variant="primary" className={styles.headerBts} href="/">Home</Button>
+            <Button variant="primary" className={styles.headerBts} href="/services">Services</Button>
+            <Button variant="primary" className={styles.headerBts} href="/rental">Rental</Button>
+            <Button variant="primary" className={styles.headerBts} href="/equipment">Equipment</Button>
+            <Button variant="primary" className={styles.headerBts} href="/clients">Clients</Button>
+            <Button variant="primary" className={styles.headerBts} href="/blog">Blog</Button>
+            <Button variant="primary" className={styles.headerBts} href="/aboutus">About Us</Button>
         </div>
     )
     }
