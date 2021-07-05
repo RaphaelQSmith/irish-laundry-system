@@ -18,7 +18,7 @@ export default function services() {
             </div>
 
             <div className={styles.serviceForm}>
-                <h4 style={{textAlign:'center', paddingBottom: '3rem'}}>Tell us what you need</h4>
+                <h4 style={{ textAlign: 'center', paddingBottom: '3rem' }}>Tell us what you need</h4>
                 <Form>
                     <Row>
                         <Form.Label column lg={2}>
@@ -58,9 +58,9 @@ export default function services() {
                     <br />
                     <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
                         <Form.Label>Problem description</Form.Label>
-                        <Form.Control as="textarea" rows={3} />
+                        <Form.Control as="textarea" rows={5} />
                     </Form.Group>
-                    <Button variant="success" type="submit" style={{width:"10rem", marginLeft:"40%"}}>
+                    <Button variant="success" type="submit" style={{ width: "10rem", marginLeft: "43%" }}>
                         Submit
                     </Button>
                 </Form>
