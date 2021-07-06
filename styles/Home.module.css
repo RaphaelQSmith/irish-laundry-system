@@ -34,7 +34,9 @@
 }
 
 .serviceCardBody{
-    padding: 7rem 0 7rem 0;
+    padding: 12rem;
+    text-align: justify;
+    padding-left: 35%;
 }
 
 .serviceForm{
@@ -82,11 +84,16 @@
     flex: 1;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
+    
     margin: 5rem 0;
     text-align: center;
+    gap: 18px;
     
 }
+.reviewCardBody{
+    height: 25vh;
+    justify-content: center;
+    }
 .historyTimeline{
     display: flex;
     flex: 1;

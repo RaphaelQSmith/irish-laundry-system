@@ -6,11 +6,9 @@ import styles from '../styles/Home.module.css'
 export default function clients() {
     return (
         <div>
-            <div className={styles.serviceCard}>
-                <Card>
-                    <Card.Header>Clients Testimonies
-                    </Card.Header>
-                    <Card.Body className={styles.serviceCardBody}>
+            <div >
+                <Card style={{height: '40vh'}} className={styles.serviceCard}>
+                    <Card.Body className={styles.reviewCardBody}>
                         <Card.Title>What clients think of us:</Card.Title>
                         <Card.Text>
                             
@@ -23,7 +21,7 @@ export default function clients() {
                 <Card style={{width: '20rem'}}>
                     <Card.Header>Clients Testimonies
                     </Card.Header>
-                    <Card.Body className={styles.serviceCardBody}>
+                    <Card.Body className={styles.reviewCardBody}>
                         <Card.Title>What clients think of us:</Card.Title>
                         <Card.Text>
                             
@@ -33,7 +31,7 @@ export default function clients() {
                 <Card style={{width: '20rem'}}>
                     <Card.Header>Clients Testimonies
                     </Card.Header>
-                    <Card.Body className={styles.serviceCardBody}>
+                    <Card.Body className={styles.reviewCardBody}>
                         <Card.Title>What clients think of us:</Card.Title>
                         <Card.Text>
                             
@@ -43,7 +41,7 @@ export default function clients() {
                 <Card style={{width: '20rem'}}>
                     <Card.Header>Clients Testimonies
                     </Card.Header>
-                    <Card.Body className={styles.serviceCardBody}>
+                    <Card.Body className={styles.reviewCardBody}>
                         <Card.Title>What clients think of us:</Card.Title>
                         <Card.Text>
                             
@@ -52,8 +50,8 @@ export default function clients() {
                 </Card>
             </div>
             <div className={styles.serviceCard}>
-                <Card>
-                    <Card.Body className={styles.serviceCardBody}>
+                <Card style={{height: '40vh'}}>
+                    <Card.Body className={styles.reviewCardBody}>
                         <Card.Title>COMPANIES LOGOS</Card.Title>
                         <Card.Text>
                             

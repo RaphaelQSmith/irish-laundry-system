@@ -240,7 +240,7 @@ export default function equipment() {
                 </Tab>
                 <Tab eventKey="contact" title="Ironers">
                     <div>
-                        <CardGroup>
+                        <CardGroup className={styles.equipRows}>
                             <Card className={styles.equipCard} >
                                 <Card.Title>FIT1</Card.Title>
                                 <Card.Img variant="top" src="/Ironers/FIT1.jpg" />

@@ -11,7 +11,17 @@ export default function rental() {
                     <Card.Body className={styles.serviceCardBody}>
                         <Card.Title>Rental Services:</Card.Title>
                         <Card.Text>
-                            Rental Description
+                            <ol>
+                            <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+                            <li>Aliquam tincidunt mauris eu risus.</li>
+                            <li>Vestibulum auctor dapibus neque.</li>
+                            <li>Nunc dignissim risus id metus.</li>
+                            <li>Cras ornare tristique elit.</li>
+                            <li>Vivamus vestibulum ntulla nec ante.</li>
+                            <li>Praesent placerat risus quis eros.</li>
+                            <li>Fusce pellentesque suscipit nibh.</li>
+                            <li>Integer vitae libero ac risus egestas placerat.</li>
+                            </ol>
                         </Card.Text>
                     </Card.Body>
                 </Card>
@@ -21,25 +31,11 @@ export default function rental() {
                     <Carousel.Item>
                         <img
                             className="d-block w-100"
-                            src="/laundryone.jpg"
-                            alt="First slide"
-                        />
-                        <Carousel.Caption>
-                            <h3>First slide label</h3>
-                            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                        </Carousel.Caption>
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <img
-                            className="d-block w-100"
                             src="/laundrytwo.jpg"
                             alt="Second slide"
                         />
 
-                        <Carousel.Caption>
-                            <h3>Second slide label</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        </Carousel.Caption>
+                       
                     </Carousel.Item>
                     <Carousel.Item>
                         <img
@@ -48,10 +44,15 @@ export default function rental() {
                             alt="Third slide"
                         />
 
-                        <Carousel.Caption>
-                            <h3>Third slide label</h3>
-                            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                        </Carousel.Caption>
+                        
+                    </Carousel.Item>
+                    <Carousel.Item>
+                        <img
+                            className="d-block w-100"
+                            src="/electroluxPartner.png"
+                            alt="First slide"
+                        />
+                        
                     </Carousel.Item>
                 </Carousel>
             </div>

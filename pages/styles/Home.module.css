@@ -3,5 +3,9 @@
     display: 'flex';
     flex: 1;
     justify-content:'center';
-    padding: 0 15%;
+}
+
+@media (min-width: 800px){
+    .wrapper{padding: 0 15%;
+    }
 }

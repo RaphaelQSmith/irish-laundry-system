@@ -7,61 +7,58 @@ export default function Footer() {
         <div>
             <Navbar className={styles.footerStyle}>
                 <Container>
-                    <Navbar.Text  className={styles.footerLink}>
-                        <h5>Contact us:</h5>
-                        Phone: 555-5469 <br/>
-                        Email - ils@sample.com <br/>
-                        Address: 999 Ranelagh Village, Ranelagh
-                    </Navbar.Text>
+                    <div>
+                        <div>
+                            <Navbar.Text className={styles.footerLink}>
+                                <h5>Contact us:</h5>
+                                Phone: 555-5469 <br />
+                                Email - ils@sample.com <br />
+                                Address: 999 Ranelagh Village, Ranelagh
+                            </Navbar.Text>
+                        </div>
+                        <div>
+                            <img
+                                src="/electroluxPartnerWhite.png" style={{ width: '18rem' }}
+                            />
+                        </div>
+                    </div>
                     <Navbar.Toggle />
                     <Navbar.Collapse className="justify-content-end">
-                    <Navbar.Text className={styles.footerText}>
-                    <Form>
-                    <Row>
-                        <Form.Label column lg={2}>
-                            Name
-                        </Form.Label>
-                        <Col>
-                            <Form.Control type="text" placeholder="Name" />
-                        </Col>
-                    </Row>
-                    <br />
-                    <Row>
-                        <Form.Label column lg={2}>
-                            Email
-                        </Form.Label>
-                        <Col>
-                            <Form.Control type="email" placeholder="Email" />
-                        </Col>
-                    </Row>
-                    <br />
-                    <Row>
-                        <Form.Label column lg={2}>
-                            Phone
-                        </Form.Label>
-                        <Col>
-                            <Form.Control type="phone" placeholder="Phone" />
-                        </Col>
-                    </Row>
-                    <br />
-                    <Row>
-                        <Form.Label column lg={2}>
-                            Company
-                        </Form.Label>
-                        <Col>
-                            <Form.Control type="text" placeholder="Company" />
-                        </Col>
-                    </Row>
-                    <br />
-                    <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-                        <Form.Label>Problem description</Form.Label>
-                        <Form.Control as="textarea" rows={5} />
-                    </Form.Group>
-                    <Button variant="success" type="submit" style={{ width: "10rem", marginLeft: "43%" }}>
-                        Submit
-                    </Button>
-                </Form>
-                    </Navbar.Text>
+                        <Navbar.Text className={styles.footerText}>
+                            <Form className={styles.footerForm}>
+                                <Row>
+                                    <Col>
+                                        <Form.Control type="text" placeholder="Name" />
+                                    </Col>
+                                </Row>
+                                <br />
+                                <Row>
+                                    <Col>
+                                        <Form.Control type="email" placeholder="Email" />
+                                    </Col>
+                                </Row>
+                                <br />
+                                <Row>
+                                    <Col>
+                                        <Form.Control type="phone" placeholder="Phone" />
+                                    </Col>
+                                </Row>
+                                <br />
+                                <Row>
+                                    <Col>
+                                        <Form.Control type="text" placeholder="Company" />
+                                    </Col>
+                                </Row>
+                                <br />
+                                <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+                                    <Form.Label>Problem description</Form.Label>
+                                    <Form.Control as="textarea" rows={5} />
+                                </Form.Group>
+                                <Button variant="success" type="submit" style={{ width: "10rem", marginLeft: "43%" }}>
+                                    Submit
+                                </Button>
+                            </Form>
+                        </Navbar.Text>
                     </Navbar.Collapse>
                 </Container>
             </Navbar>

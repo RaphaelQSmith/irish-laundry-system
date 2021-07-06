@@ -9,7 +9,7 @@ export default function Header() {
             <header>
                 <div className={styles.headerContainer}>
                     <div className={styles.ilsLogo}>
-                        <img style={{width:"20rem"}} src="top_logo.png" alt="logo"/>
+                        <img style={{width:"12rem"}} src="top_logo.png" alt="logo"/>
                     </div>
                     <div className={styles.headerInfo}>
                         <p>Email: some@some.com</p>
