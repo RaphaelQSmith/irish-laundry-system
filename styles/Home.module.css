@@ -2,9 +2,8 @@
     display: flex;
     flex: 1;
     margin: 3rem;
-    height: 80vh;
-    /* align-items: center;
-    justify-content: center;  */
+    align-items: center;
+    justify-content: center; 
 }
 
 .description{
@@ -48,7 +47,6 @@
     display: flex;
     flex: 1;
     margin: 4rem;
-    height: 60vh;
 }
 .equipContainer{
     display: flex;
@@ -84,7 +82,6 @@
     flex: 1;
     flex-wrap: wrap;
     justify-content: center;
-    
     margin: 5rem 0;
     text-align: center;
     gap: 18px;
