@@ -1,4 +1,3 @@
-import React from 'react'
 import { Tabs, Tab, Button, Card, CardGroup, Row, Col } from 'react-bootstrap'
 import styles from '../styles/Home.module.css'
 

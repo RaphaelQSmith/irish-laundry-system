@@ -105,3 +105,28 @@
     align-items: center;
     width: 22rem;
 }
+.blog{
+    display: flex;
+    flex: 1;
+    flex-direction:column;
+    margin: 5rem 2rem; 
+    text-align: justify;
+}
+.blogPost{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+.blogPost img{
+    width: 28rem;
+}
+.blogPost h3{
+    margin: 0rem 2rem;
+}
+.blogPost p{
+    margin: 1rem;
+}
+.blogText{
+    margin-bottom: 4rem;
+}
