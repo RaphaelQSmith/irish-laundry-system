@@ -13,7 +13,7 @@ export default function Header() {
                     </div>
                     <div className={styles.headerInfo}>
                         <p>Email: some@some.com</p>
-                        <p>Phone:555-1212</p>
+                        <p>Phone: 555-1212</p>
                     </div>
                 </div>
             </header>

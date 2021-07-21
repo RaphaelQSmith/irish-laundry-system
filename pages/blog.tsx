@@ -55,7 +55,7 @@ export default function blog() {
             </section>
             <section className={styles.blogText}>
                 <div>
-                    <h3>TEXT 1</h3>
+                    <h3>Some Blog Post Title</h3>
                     <p>
                     Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
                     totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt,
@@ -70,7 +70,7 @@ export default function blog() {
             </section>
             <section className={styles.blogText}>
                 <div>
-                    <h3>TEXT 1</h3>
+                    <h3>Some Blog Post Title</h3>
                     <p>
                     Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
                     totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt,

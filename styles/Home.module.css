@@ -128,5 +128,8 @@
     margin: 1rem;
 }
 .blogText{
-    margin-bottom: 4rem;
+    margin: 6rem 10rem;
+}
+.blogText h3{
+    text-align: center;
 }
