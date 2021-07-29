@@ -5,7 +5,3 @@
     justify-content:'center';
 }
 
-@media (min-width: 800px){
-    .wrapper{padding: 0 15%;
-    }
-}

@@ -31,28 +31,23 @@ export default function Footer() {
                                         <Form.Control type="text" placeholder="Name" />
                                     </Col>
                                 </Row>
-                                <br />
                                 <Row>
                                     <Col>
                                         <Form.Control type="email" placeholder="Email" />
                                     </Col>
                                 </Row>
-                                <br />
                                 <Row>
                                     <Col>
                                         <Form.Control type="phone" placeholder="Phone" />
                                     </Col>
                                 </Row>
-                                <br />
                                 <Row>
                                     <Col>
                                         <Form.Control type="text" placeholder="Company" />
                                     </Col>
                                 </Row>
-                                <br />
                                 <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-                                    <Form.Label>Problem description</Form.Label>
-                                    <Form.Control as="textarea" rows={5} />
+                                    <Form.Control as="textarea" placeholder="Request Description" rows={5} />
                                 </Form.Group>
                                 <Button variant="success" type="submit" style={{ width: "10rem", marginLeft: "43%" }}>
                                     Submit
