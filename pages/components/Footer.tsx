@@ -38,11 +38,6 @@ export default function Footer() {
                                 </Row>
                                 <Row>
                                     <Col>
-                                        <Form.Control type="phone" placeholder="Phone" />
-                                    </Col>
-                                </Row>
-                                <Row>
-                                    <Col>
                                         <Form.Control type="text" placeholder="Company" />
                                     </Col>
                                 </Row>

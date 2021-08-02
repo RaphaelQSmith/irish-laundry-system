@@ -1,15 +1,23 @@
 .headerContainer{
     display: flex;
     flex: 1;
-    flex-direction: row;
-    flex-wrap: wrap;
     background-color: rgb(39, 52, 131);
-    border-bottom-right-radius: 60px;
+    border-radius: 60px 0 60px 0px;
+    color: azure;
+    flex-wrap: wrap;
     align-items: center;
-    justify-items: center;
     margin-bottom: 2rem;
     padding: 4rem 2rem;
-    color: azure;
+    /* flex-direction: row;
+    border-radius: 60px 0 60px 0px;
+    
+     */
+}
+.headerFirstLine{
+    display: flex;
+    flex: 2;
+    justify-content: space-between;
+    
 }
 
 .ilsLogo{
@@ -28,12 +36,9 @@
 }
 
 .buttonContainer{
-   display: flex;
    flex: 1;
    flex-wrap: wrap;
-}
-.headerBts{
-    flex: 1;
+   color:white;
 }
 
 .footerStyle{
@@ -42,7 +47,7 @@
     flex-direction: row;
     background-color: rgb(39, 52, 131);
     padding: 10rem 1rem;
-    height: 35rem;
+    height: 23rem;
     border-top-left-radius: 50px;
 }
 .footerText{

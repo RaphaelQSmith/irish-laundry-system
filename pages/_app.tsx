@@ -10,7 +10,6 @@ function MyApp({ Component, pageProps }: AppProps) {
   return(
     <div className={styles.wrapper}>    
       <Header />
-      <HeaderButtons />
       <Component {...pageProps} />
       <Footer />
     </div>
