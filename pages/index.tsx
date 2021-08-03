@@ -5,12 +5,12 @@ import styles from '../styles/Home.module.css'
 export default function Home() {
   return (
     <div>
-      <div>
-        <Carousel fade className={styles.caroussel}>
+      <div  className={styles.caroussel}>
+        <Carousel fade>
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src="/laundryone.jpg"
+              src="/resizeddrum.png"
               alt="First slide"
             />
             <Carousel.Caption>
@@ -19,7 +19,7 @@ export default function Home() {
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src="/laundrytwo.jpg"
+              src="/resizedworker.png"
               alt="Second slide"
             />
 
@@ -29,20 +29,9 @@ export default function Home() {
           <Carousel.Item>
             <img
               className="d-block w-100"
-              src="/laundrythree.jpg"
+              src="/resizedmachines.png"
               alt="Third slide"
             />
-
-            <Carousel.Caption>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src="/laundryfour.jpg"
-              alt="Third slide"
-            />
-
             <Carousel.Caption>
             </Carousel.Caption>
           </Carousel.Item>

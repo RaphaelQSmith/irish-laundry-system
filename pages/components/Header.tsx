@@ -61,7 +61,7 @@ export default function Header() {
                             <a className="nav-link" href="/aboutus">About Us</a>
                         </li>
                     </ul>
-                    <span className="navbar-text">
+                    <span className="navbar-text" style={{fontSize:"12pt"}}>
                         <p>Email: some@some.com</p>
                         <p>Phone: 555-1212</p>
                         <p>95 Ranelagh Village
