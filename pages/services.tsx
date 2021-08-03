@@ -8,8 +8,7 @@ export default function services() {
             <div className={styles.serviceCard}>
                 <Card>
                     <Card.Header>Services</Card.Header>
-                    <Card.Body className={styles.serviceCardBody}>
-                        <Card.Title>We offer the following services:</Card.Title>
+                    <Card.Body className={styles.serviceCardBody}>  
                         <Card.Text>
                             Services description
                         </Card.Text>

@@ -5,8 +5,8 @@ import styles from '../styles/Home.module.css'
 export default function Home() {
   return (
     <div>
-      <div  className={styles.caroussel}>
-        <Carousel fade>
+      <div>
+        <Carousel fade className={styles.caroussel}>
           <Carousel.Item>
             <img
               className="d-block w-100"

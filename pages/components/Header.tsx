@@ -38,10 +38,11 @@ export default function Header() {
                             </nav>  */}
 
 
-            <nav className="navbar navbar-expand-lg navbar-dark" style={{ backgroundColor: "rgb(39, 52, 131)", height: "180px", padding: "120px 80px"}}>
+            <nav className="navbar navbar-expand-lg navbar-dark responsive" style={{ backgroundColor: "rgb(39, 52, 131)", 
+                                                                                     height: "180px", padding: "120px 80px"}}>
                 <img style={{ width: "250px" }} src="/top_logo.png" alt="" />
                 <div className="collapse navbar-collapse" id="navbarText" style={{fontSize:"16pt"}}>
-                    <ul className="navbar-nav mr-auto">
+                    <ul className="navbar-nav mr-auto" style={{fontSize:"1.3vw"}}>
                         <li className="nav-item active">
                             <a className="nav-link" href="/rental">Rental <span className="sr-only">(current)</span></a>
                         </li>
@@ -61,7 +62,7 @@ export default function Header() {
                             <a className="nav-link" href="/aboutus">About Us</a>
                         </li>
                     </ul>
-                    <span className="navbar-text" style={{fontSize:"12pt"}}>
+                    <span className="navbar-text" style={{fontSize:"1vw"}}>
                         <p>Email: some@some.com</p>
                         <p>Phone: 555-1212</p>
                         <p>95 Ranelagh Village

@@ -3,8 +3,8 @@
     flex: 1;
     margin: 3rem;
     align-items: center;
-    justify-content: center; 
-}
+    justify-content: center;
+} 
 
 .description{
     font-weight: 400;
@@ -29,18 +29,17 @@
     margin: 2rem 0;
     justify-content: center;
     text-align: center;
-    margin: 3rem 20rem;
-    font-weight: 700;   
+    margin: 3rem;
+    font-weight: 700;
+    font-size: 2vw;     
 }
 
 .serviceCardBody{
     padding: 12rem;
-    text-align: justify;
-    padding-left: 35%;
 }
 
 .serviceForm{
-    margin: 4rem 40rem;
+    margin: 4rem;
     margin: black;
 }
 
