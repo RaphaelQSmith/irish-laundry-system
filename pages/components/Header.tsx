@@ -1,12 +1,12 @@
-import React from 'react'
-import styles from './components.module.css'
-import Button from 'react-bootstrap/Button';
-import { Collapse, Nav, Navbar, NavbarBrand, NavItem, NavLink } from 'react-bootstrap';
-
+import React, { useState } from 'react'
+import { Collapse, Nav, Navbar, Container, NavbarBrand, NavItem, NavLink, NavDropdown } from 'react-bootstrap';
 
 export default function Header() {
+    const [collapsed, setCollapsed] = useState(true);
+
+    const toggleNavbar = () => setCollapsed(!collapsed);
     return (
-        <div  style={{color: "azure"}}>
+        <div>
             {/* <nav classNameName={styles.headerContainer}>
                 <div classNameName={styles.headerFirstLine}>
                     <div classNameName={styles.ilsLogo}>
@@ -35,44 +35,81 @@ export default function Header() {
                            
                         </div>
                     </div>
-                            </nav>  */}
+                            </nav>  
 
-
-            <nav className="navbar navbar-expand-lg navbar-dark responsive" style={{ backgroundColor: "rgb(39, 52, 131)", 
-                                                                                     height: "180px", padding: "120px 80px"}}>
-                <img style={{ width: "250px" }} src="/top_logo.png" alt="" />
-                <div className="collapse navbar-collapse" id="navbarText" style={{fontSize:"16pt"}}>
-                    <ul className="navbar-nav mr-auto" style={{fontSize:"1.3vw"}}>
+            <nav className="navbar navbar-expand-lg navbar-dark" style={{
+                backgroundColor: "rgb(39, 52, 131)",
+                height: "300px",
+                borderStyle: "solid", borderBottomColor: "#F1B82D",
+                borderBottomWidth: "7px"
+            }}>
+                <div className="container">
+                    <a href="/" className="navbar-brand">
+                        <img style={{ width: "250px" }} src="/top_logo.png" alt="" />
+                    </a>
+                </div>
+                <button className="navbar-toggler" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#navbarText">
+                    <span className="navbar-toggler-icon"></span>
+                </button>
+                <div className="collapse navbar-collapse" id="navbarText">
+                    <ul className="navbar-nav ms-auto flex-nowrap">
                         <li className="nav-item active">
                             <a className="nav-link" href="/rental">Rental <span className="sr-only">(current)</span></a>
                         </li>
-                        <li className="nav-item">
+                        <li className="nav-item active">
                             <a className="nav-link" href="/services">Services</a>
                         </li>
-                        <li className="nav-item">
+                        <li className="nav-item active">
                             <a className="nav-link" href="/equipment">Equipment</a>
                         </li>
-                        <li className="nav-item">
+                        <li className="nav-item active">
                             <a className="nav-link" href="/clients">Clients</a>
                         </li>
-                        <li className="nav-item">
+                        <li className="nav-item active">
                             <a className="nav-link" href="/blog">Blog</a>
                         </li>
-                        <li className="nav-item">
+                        <li className="nav-item active">
                             <a className="nav-link" href="/aboutus">About Us</a>
                         </li>
                     </ul>
-                    <span className="navbar-text" style={{fontSize:"1vw"}}>
-                        <p>Email: some@some.com</p>
-                        <p>Phone: 555-1212</p>
-                        <p>95 Ranelagh Village
-                        Ranelagh
-                        Dublin 6
-                        D06-V1W5
+                    <span className="navbar-text" style={{ fontSize: "1vw", position:"sticky", alignItems:"right" }}>
+                            <p>Email: some@some.com</p>
+                            <p>Phone: 555-1212</p>
+                            <p>95 Ranelagh Village
+                            Ranelagh
+                            Dublin 6
+                            D06-V1W5
                             </p>
-                    </span>
+                        </span> 
                 </div>
-            </nav>
+            </nav> */}
+            <Navbar collapseOnSelect expand="lg" variant="dark" 
+                style={{
+                    backgroundColor: "#273483",
+                    height: "300px",
+                    borderStyle: "solid", 
+                    borderBottomColor: "#F1B82D",
+                    borderBottomWidth: "7px",
+                    borderBottomRightRadius: "50px"
+                }}>
+                <Container>
+                    <Navbar.Brand href="/"><img style={{ width: "250px" }} src="/top_logo.png" alt="" /></Navbar.Brand>
+                    <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                    <Navbar.Collapse id="responsive-navbar-nav">
+                        <Nav className="ms-auto" style={{fontSize: "1.25vw"}}>
+                            <Nav.Link href="/rental">Rental</Nav.Link>
+                            <Nav.Link href="/services">Services</Nav.Link>
+                            <Nav.Link href="/equipment">Equipment</Nav.Link>
+                            <Nav.Link href="/clients">Clients</Nav.Link>
+                            <Nav.Link href="/aboutus">About Us</Nav.Link>
+                        </Nav>
+                    </Navbar.Collapse>
+                </Container>
+            </Navbar>
+
+
+
         </div>
     )
 }

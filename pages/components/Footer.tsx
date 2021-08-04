@@ -44,7 +44,7 @@ export default function Footer() {
                                 <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
                                     <Form.Control as="textarea" placeholder="Request Description" rows={5} />
                                 </Form.Group>
-                                <Button variant="success" type="submit" style={{ width: "10rem", marginLeft: "43%" }}>
+                                <Button variant="success" type="submit" style={{ width: "10rem" }}>
                                     Submit
                                 </Button>
                             </Form>

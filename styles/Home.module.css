@@ -1,7 +1,7 @@
 .caroussel{
     display: flex;
     flex: 1;
-    margin: 3rem;
+    margin: 3rem 15rem;
     align-items: center;
     justify-content: center;
 } 
@@ -9,7 +9,7 @@
 .description{
     font-weight: 400;
     text-align:justify;
-    margin: 7rem 0 7rem 0;
+    margin: 7rem 15rem ;
 }
 .description h4{
     text-align: center;
@@ -21,7 +21,7 @@
     flex: 1;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-bottom: 8rem;
 }
 
@@ -69,12 +69,20 @@
             padding: 20px;
         }
     }  
-  @media (min-width: 720px){
+@media (max-width: 900px){
     .equipCard{
         align-items: center;
         justify-content: center;
         padding: 20px;
     }
+    .caroussel{
+        width: 100%;
+        margin: 0;
+    }
+    .description{
+        margin: 3rem 1rem; 
+    }
+    
 }
 
 .reviewCards{

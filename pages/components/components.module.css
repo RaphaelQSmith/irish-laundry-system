@@ -1,14 +1,20 @@
-.headerContainer{
-    display: flex;
-    flex: 1;
-    background-color: rgb(39, 52, 131);
+/* .headerContainer{
     border-radius: 60px 0 60px 0px;
     color: azure;
     flex-wrap: wrap;
     align-items: center;
     margin-bottom: 2rem;
     padding: 4rem 2rem;
+    border-style: solid;
+    border-color: gold;
+} */
+
+@media screen and(max-width: 900px){
+    .headerFirstLine{   
+        flex-wrap: wrap;
+    }
 }
+
 .headerFirstLine{
     display: flex;
     flex: 2;
@@ -54,7 +60,11 @@
     color:white !important;
 }
 
-@media (min-width: 900px){
+
+@media screen and (max-width: 800px) {
+    .headerInfo {
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
     .footerText{
         width: 20rem;
     }
