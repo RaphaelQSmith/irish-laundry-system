@@ -84,28 +84,52 @@ export default function Header() {
                         </span> 
                 </div>
             </nav> */}
-            <Navbar collapseOnSelect expand="lg" variant="dark" 
+            <Navbar collapseOnSelect expand="lg" variant="dark" className="jumbotron" 
                 style={{
                     backgroundColor: "#273483",
                     height: "300px",
                     borderStyle: "solid", 
                     borderBottomColor: "#F1B82D",
-                    borderBottomWidth: "7px",
-                    borderBottomRightRadius: "50px"
+                    borderWidth: "0 0 7px 0",
+                    borderBottomRightRadius: "75px"
                 }}>
                 <Container>
                     <Navbar.Brand href="/"><img style={{ width: "250px" }} src="/top_logo.png" alt="" /></Navbar.Brand>
-                    <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-                    <Navbar.Collapse id="responsive-navbar-nav">
-                        <Nav className="ms-auto" style={{fontSize: "1.25vw"}}>
+                    
+                    
+                    
+                    <span className="navbar-text" style={{ fontSize: "1vw", position:"sticky", alignItems:"right" }}>
+                            <p>Email: some@some.com</p>
+                            <p>Phone: 555-1212</p>
+                            <p>95 Ranelagh Village
+                            Ranelagh
+                            </p>
+                            <p>
+                            Dublin 6
+                            D06-V1W5
+                            </p>
+                        </span>
+
+                        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                </Container>
+            {/* </Navbar> */}
+            {/* <Navbar  collapseOnSelect expand="lg" variant="dark"> */}
+            <Container>
+                <Navbar.Collapse id="responsive-navbar-nav">
+                        <Nav className="ms-auto" style={{fontSize: "1.25vw",
+                                                        backgroundColor: "#273483",
+                                                        borderStyle: "solid", 
+                                                        borderBottomColor: "#F1B82D",
+                                                        borderWidth: "0 0 7px 0",
+                                                        borderBottomRightRadius: "75px",
+                                                        width:"100%"}}>
                             <Nav.Link href="/rental">Rental</Nav.Link>
                             <Nav.Link href="/services">Services</Nav.Link>
                             <Nav.Link href="/equipment">Equipment</Nav.Link>
                             <Nav.Link href="/clients">Clients</Nav.Link>
                             <Nav.Link href="/aboutus">About Us</Nav.Link>
                         </Nav>
-                    </Navbar.Collapse>
-                </Container>
+                    </Navbar.Collapse></Container>
             </Navbar>
 
 
