@@ -8,7 +8,7 @@ export default function equipment() {
                 defaultActiveKey="home"
                 transition={false}
                 id="noanim-tab-example"
-                className="mb-3"
+                className="mb-2 nav-pills"
             >
                 <Tab eventKey="home" title="Washing Machines">
                     <div>
@@ -88,9 +88,6 @@ export default function equipment() {
                         </Card.Text>
                                 </Card.Body>
                             </Card>
-
-                            {/* </div>
-                    <div className={styles.equipRows}> */}
 
                             <Card className={styles.equipCard} >
                                 <Card.Title>Quickwash</Card.Title>
@@ -282,6 +279,9 @@ export default function equipment() {
                         </Card>
                         </CardGroup>
                     </div>
+                </Tab>
+                <Tab eventKey="barrier" title="Barrier Washers">
+
                 </Tab>
             </Tabs>
         </div>

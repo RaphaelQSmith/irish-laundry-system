@@ -7,7 +7,7 @@ export default function services() {
         <div>
             <div className={styles.serviceCard}>
                 <Card>
-                    <Card.Header>Services</Card.Header>
+                    {/* <Card.Header>Services</Card.Header> */}
                     <Card.Body className={styles.serviceCardBody}>  
                         <Card.Text>
                             Services description
@@ -19,6 +19,8 @@ export default function services() {
             <div className={styles.serviceForm}>
                 <h4 style={{ textAlign: 'center', paddingBottom: '3rem' }}>Tell us what you need</h4>
                 <Form>
+                    <Row>
+                    <Col>
                     <Row>
                         <Form.Label column lg={2}>
                             Name
@@ -54,14 +56,19 @@ export default function services() {
                             <Form.Control type="text" placeholder="Company" />
                         </Col>
                     </Row>
-                    <br />
+                    </Col>
+
+                    <Col>
+                    
                     <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
                         <Form.Label>Problem description</Form.Label>
-                        <Form.Control as="textarea" rows={5} />
+                        <Form.Control as="textarea" rows={7} />
                     </Form.Group>
                     <Button variant="success" type="submit" style={{ width: "10rem", marginLeft: "43%" }}>
                         Submit
                     </Button>
+                    </Col>
+                    </Row>  
                 </Form>
             </div>
         </div>

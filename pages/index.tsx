@@ -1,5 +1,5 @@
 import React from 'react'
-import { Card, Carousel } from 'react-bootstrap'
+import { Button, Card, Carousel } from 'react-bootstrap'
 import styles from '../styles/Home.module.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
 
@@ -80,6 +80,14 @@ export default function Home() {
               Some quick example text to build on the card title and make up the bulk of
               the card's content.
           </Card.Text>
+          </Card.Body>
+        </Card>
+        <Card style={{ width: '12rem', justifyContent:"center", textAlign:"center" }}>
+          <Card.Body>
+            <Card.Title>Additional testimonials</Card.Title>
+            <Button variant="outline-secondary" href="/clients">Show me more</Button>{' '}
+
+            
           </Card.Body>
         </Card>
       </div>
