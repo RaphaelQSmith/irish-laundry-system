@@ -1,13 +1,10 @@
-/* .headerContainer{
-    border-radius: 60px 0 60px 0px;
-    color: azure;
-    flex-wrap: wrap;
-    align-items: center;
-    margin-bottom: 2rem;
-    padding: 4rem 2rem;
-    border-style: solid;
-    border-color: gold;
-} */
+.headerContainer{
+    background-color: "#273483";
+    height: "250px";
+    border-bottom-Color: "#F1B82D";
+    border-width: "0 0 7px 0";
+    width: "100%";
+} 
 
 @media screen and(max-width: 900px){
     .headerFirstLine{   

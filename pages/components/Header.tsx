@@ -20,11 +20,11 @@ export default function Header() {
                     <Navbar.Brand href="/"><img style={{ width: "300px" }} src="/top_logo.png" alt="" /></Navbar.Brand>
                     <Navbar.Collapse style={{ fontSize: "1.2vw",justifyContent: "center", textDecoration:"underline" }} id="responsive-navbar-nav">
                         <Nav className="ms-auto"> 
-                            <Nav.Link href="/rental">Rental</Nav.Link>
-                            <Nav.Link href="/services">Services</Nav.Link>
-                            <Nav.Link href="/equipment">Equipment</Nav.Link>
-                            <Nav.Link href="/clients">Clients</Nav.Link>
-                            <Nav.Link href="/aboutus">About Us</Nav.Link>
+                            <Nav.Link style={{color: "white !important"}} href="/services">Services</Nav.Link>
+                            <Nav.Link style={{color: "white !important"}} href="/rental">Rental</Nav.Link>
+                            <Nav.Link style={{color: "white !important"}} href="/equipment">Equipment</Nav.Link>
+                            <Nav.Link style={{color: "white !important"}} href="/clients">Clients</Nav.Link>
+                            <Nav.Link style={{color: "white !important"}} href="/aboutus">About Us</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
 
