@@ -4,6 +4,7 @@
     border-bottom-Color: "#F1B82D";
     border-width: "0 0 7px 0";
     width: "100%";
+    overflow: hidden;
 } 
 
 @media screen and(max-width: 900px){
@@ -47,6 +48,7 @@
     padding: 10rem 1rem;
     height: 21rem;
     border-top-left-radius: 50px;
+    overflow: hidden;
 }
 .footerText{
     color:white !important;

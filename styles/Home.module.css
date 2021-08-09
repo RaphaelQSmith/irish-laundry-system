@@ -1,22 +1,23 @@
-.caroussel{
+.caroussel {
     display: flex;
     flex: 1;
     margin: 3rem 15rem;
     align-items: center;
-    justify-content: center;    
-} 
-
-.description{
-    font-weight: 400;
-    text-align:justify;
-    margin: 7rem 15rem ;
+    justify-content: center;
 }
-.description h4{
+
+.description {
+    font-weight: 400;
+    text-align: justify;
+    margin: 7rem 15rem;
+}
+
+.description h4 {
     text-align: center;
     padding-bottom: 2rem;
 }
 
-.cardRow{
+.cardRow {
     display: flex;
     flex: 1;
     flex-direction: row;
@@ -25,30 +26,35 @@
     margin-bottom: 8rem;
 }
 
-.serviceCard{
+.serviceCard {
     margin: 2rem 0;
     justify-content: center;
     text-align: center;
     margin: 3rem;
     font-weight: 700;
-    font-size: 2vw;     
+    font-size: 2vw;
 }
 
-.serviceCardBody{
+.serviceCardBody {
     padding: 12rem;
 }
 
-.serviceForm{
+.serviceForm {
     margin: 3rem 15rem;
     margin: black;
 }
 
-.rentalCarrousel{
+.rentalCarrousel {
     display: flex;
     flex: 1;
-    margin: 4rem;
+    margin: auto;
+    height: 700px;
+    width: 400px;
+    align-items: center;
+    justify-content: center;
 }
-.equipContainer{
+
+.equipContainer {
     display: flex;
     flex: 1;
     flex-direction: column;
@@ -59,38 +65,43 @@
     border-width: "7px";
 
 }
-.equipRows{
-    display: grid;justify-content: center;
+
+.equipRows {
+    display: grid;
+    justify-content: center;
     justify-items: center;
     gap: 30px;
     padding: 30px;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
-@media (min-width: 1080px){
-    .equipCard{
-            align-items: center;
-            justify-content: center;
-            padding: 20px;
-        }
-    }  
-@media (max-width: 900px){
-    .equipCard{
+@media (min-width: 1080px) {
+    .equipCard {
         align-items: center;
         justify-content: center;
         padding: 20px;
     }
-    .caroussel{
+}
+
+@media (max-width: 900px) {
+    .equipCard {
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    .caroussel {
         width: 100%;
         margin: 0;
     }
-    .description{
-        margin: 3rem 1rem; 
+
+    .description {
+        margin: 3rem 1rem;
     }
-    
+
 }
 
-.reviewCards{
+.reviewCards {
     display: flex;
     flex: 1;
     flex-wrap: wrap;
@@ -98,13 +109,15 @@
     margin: 5rem 0;
     text-align: center;
     gap: 18px;
-    
+
 }
-.reviewCardBody{
+
+.reviewCardBody {
     height: 25vh;
     justify-content: center;
-    }
-.historyTimeline{
+}
+
+.historyTimeline {
     display: flex;
     flex: 1;
     flex: wrap;
@@ -113,36 +126,43 @@
     justify-content: space-around;
 }
 
-.contactCard{
+.contactCard {
     height: 30vh;
     align-items: center;
     width: 22rem;
 }
-.blog{
+
+.blog {
     display: flex;
     flex: 1;
-    flex-direction:column;
-    margin: 5rem 2rem; 
+    flex-direction: column;
+    margin: 5rem 2rem;
     text-align: justify;
 }
-.blogPost{
+
+.blogPost {
     display: flex;
     flex: 1;
     align-items: center;
     margin-bottom: 4rem;
 }
-.blogPost img{
+
+.blogPost img {
     width: 28rem;
 }
-.blogPost h3{
+
+.blogPost h3 {
     margin: 0rem 2rem;
 }
-.blogPost p{
+
+.blogPost p {
     margin: 1rem;
 }
-.blogText{
+
+.blogText {
     margin: 6rem 10rem;
 }
-.blogText h3{
+
+.blogText h3 {
     text-align: center;
 }

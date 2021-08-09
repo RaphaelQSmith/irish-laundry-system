@@ -32,16 +32,6 @@ export default function aboutus() {
                         </Card.Body>
                     </Card>
                 </div>
-                <div>
-                <Card className={styles.contactCard}>
-                        <Card.Body>
-                            <Card.Title>Google Maps</Card.Title>
-                            <Card.Text>
-
-                            </Card.Text>
-                        </Card.Body>
-                    </Card>
-                </div>
             </div>
         </div>
     )

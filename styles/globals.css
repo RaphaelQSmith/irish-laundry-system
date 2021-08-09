@@ -3,6 +3,11 @@ body {
   padding: 0;
   margin: 0;
   font-family: 'Raleway', sans-serif;
+  width: 100%;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+  width: 100% !important;
+  height: 100% !important;
 }
 
 a {
