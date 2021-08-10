@@ -58,8 +58,9 @@
     display: flex;
     flex: 1;
     flex-direction: column;
-    vertical-align: text-bottom;
-    margin: 50px;
+    width:auto;
+    margin: 8rem 15rem;
+    align-items: center; 
     border-style: "solid";
     border-color: "#F1B82D";
     border-width: "7px";
@@ -97,6 +98,10 @@
 
     .description {
         margin: 3rem 1rem;
+    }
+    .equipContainer{
+        width: auto;
+        margin: auto;
     }
 
 }

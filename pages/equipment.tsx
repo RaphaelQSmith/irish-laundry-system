@@ -46,7 +46,7 @@ export default function equipment() {
                         </Card.Text>
                                 </Card.Body>
                             </Card>
-                            
+
                             <Card className={styles.equipCard}>
                                 <Card.Title>WH6-20</Card.Title>
                                 <Card.Img variant="top" src="/WashMach/WH6-20.jpg" />

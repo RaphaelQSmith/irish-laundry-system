@@ -4,7 +4,7 @@ import styles from '../styles/Home.module.css'
 
 export default function services() {
     return (
-        <div>
+        <div className={styles.serviceForm}>
             <div className={styles.serviceCard}>
                 <Card>
                     {/* <Card.Header>Services</Card.Header> */}
@@ -16,7 +16,7 @@ export default function services() {
                 </Card>
             </div>
 
-            <div className={styles.serviceForm}>
+            <div>
                 <h4 style={{ textAlign: 'center', paddingBottom: '3rem' }}>Tell us what you need</h4>
                 <Form>
                     <Row>
