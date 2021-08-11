@@ -24,10 +24,10 @@ export default function Header() {
                             <Nav.Link style={{color: "white !important"}} href="/rental">Rental</Nav.Link>
                             <Nav.Link style={{color: "white !important"}} href="/equipment">Equipment</Nav.Link>
                             <Nav.Link style={{color: "white !important"}} href="/clients">Clients</Nav.Link>
+                            <Nav.Link style={{color: "white !important"}} href="/blog">Blog</Nav.Link>
                             <Nav.Link style={{color: "white !important"}} href="/aboutus">About Us</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>
-
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 </Container>
             </Navbar>

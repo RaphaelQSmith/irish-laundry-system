@@ -39,7 +39,7 @@ export default function Home() {
           </Carousel.Item>
         </Carousel>
       </div>
-
+      <hr className={styles.hrLines} />
       <div className={styles.description}>
         <p>
           <h4> - Our Services - </h4>
@@ -50,7 +50,7 @@ export default function Home() {
           From Hospitals to hairdressers ILS has consistently delivered the best possible solutions to there customers.
         </p>
       </div>
-
+      <hr className={styles.hrLines} />
       <div className={styles.cardRow}>
         <Card style={{ width: '18rem' }}>
           <Card.Body>
@@ -82,12 +82,12 @@ export default function Home() {
           </Card.Text>
           </Card.Body>
         </Card>
-        <Card style={{ width: '12rem', justifyContent:"center", textAlign:"center" }}>
+        <Card style={{ width: '18rem', textAlign: "center", paddingTop: "20px" }}>
           <Card.Body>
             <Card.Title>Additional testimonials</Card.Title>
             <Button variant="outline-secondary" href="/clients">Show me more</Button>{' '}
 
-            
+
           </Card.Body>
         </Card>
       </div>

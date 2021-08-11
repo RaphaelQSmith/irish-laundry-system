@@ -12,6 +12,11 @@
     margin: 7rem 15rem;
 }
 
+.hrLines{
+    height: 1px;
+    color: gold;
+    background-color: gold;
+}
 .description h4 {
     text-align: center;
     padding-bottom: 2rem;
@@ -22,8 +27,9 @@
     flex: 1;
     flex-direction: row;
     flex-wrap: wrap;
+    gap: 10px;
     justify-content: space-around;
-    margin-bottom: 8rem;
+    margin: 10rem 0;
 }
 
 .serviceCard {
@@ -103,6 +109,11 @@
         width: auto;
         margin: auto;
     }
+    .blogPost{
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+    }
 
 }
 
@@ -141,13 +152,13 @@
     display: flex;
     flex: 1;
     flex-direction: column;
+    flex-wrap: wrap;    
     margin: 5rem 2rem;
     text-align: justify;
 }
 
 .blogPost {
-    display: flex;
-    flex: 1;
+    display:flex;
     align-items: center;
     margin-bottom: 4rem;
 }
@@ -165,7 +176,7 @@
 }
 
 .blogText {
-    margin: 6rem 10rem;
+    margin: 6rem 6rem;
 }
 
 .blogText h3 {
