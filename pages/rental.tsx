@@ -6,12 +6,11 @@ export default function rental() {
     return (
         <div>
             <div className={styles.serviceCard}>
-                <Card>
-                    <Card.Header>Services</Card.Header>
-                    <Card.Body className={styles.serviceCardBody}>
-                        <Card.Title>Rental Services:</Card.Title>
-                        <Card.Text>
-                            <ol>
+                <p>
+                   <h3> Rental Services: </h3>
+                   <br/>
+                        <h5>    
+                            <ul>
                                 <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
                                 <li>Aliquam tincidunt mauris eu risus.</li>
                                 <li>Vestibulum auctor dapibus neque.</li>
@@ -21,11 +20,11 @@ export default function rental() {
                                 <li>Praesent placerat risus quis eros.</li>
                                 <li>Fusce pellentesque suscipit nibh.</li>
                                 <li>Integer vitae libero ac risus egestas placerat.</li>
-                            </ol>
-                        </Card.Text>
-                    </Card.Body>
-                </Card>
+                            </ul>
+                        </h5>    
+                </p>
             </div>
+            <hr className={styles.hrLines} />
             <div>
                 <Container>
                     <Carousel fade className={styles.rentalCarrousel}>

@@ -1,11 +1,10 @@
-.headerContainer{
+/* .headerContainer{
     background-color: "#273483";
-    height: "250px";
     border-bottom-Color: "#F1B82D";
     border-width: "0 0 7px 0";
     width: "100%";
     overflow: hidden;
-} 
+}  */
 
 @media screen and(max-width: 900px){
     .headerFirstLine{   
@@ -66,5 +65,8 @@
     }
     .footerText{
         width: 20rem;
+    }
+    .headerContainer{
+        height: "350px";
     }
 }

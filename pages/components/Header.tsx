@@ -10,15 +10,15 @@ export default function Header() {
             <Navbar collapseOnSelect expand="lg" variant="dark"
                 style={{
                     backgroundColor: "#273483",
-                    height: "250px",
+                    height: "auto",
+                    minHeight:"250px",
                     borderBottomColor: "#F1B82D",
                     borderWidth: "0 0 7px 0",
                     width: "100%"
-
                 }}>
                 <Container>
-                    <Navbar.Brand href="/"><img style={{ width: "300px" }} src="/top_logo.png" alt="" /></Navbar.Brand>
-                    <Navbar.Collapse style={{ fontSize: "1.2vw",justifyContent: "center", textDecoration:"underline" }} id="responsive-navbar-nav">
+                    <Navbar.Brand href="/"><img style={{ width: "220px" }} src="/top_logo.png" alt="" /></Navbar.Brand>
+                    <Navbar.Collapse style={{ fontSize: "12pt",justifyContent: "center", textDecoration:"underline" }} id="responsive-navbar-nav">
                         <Nav className="ms-auto"> 
                             <Nav.Link style={{color: "white !important"}} href="/services">Services</Nav.Link>
                             <Nav.Link style={{color: "white !important"}} href="/rental">Rental</Nav.Link>
@@ -32,13 +32,14 @@ export default function Header() {
                 </Container>
             </Navbar>
             <Navbar collapseOnSelect expand="lg" variant="dark" style={{
+                display: "flex",
                 backgroundColor: "#273483",
-                height: "50px",
+                height: "auto",
                 borderStyle: "solid",
                 borderBottomColor: "#F1B82D",
                 borderWidth: "0 0 7px 0",
                 borderBottomRightRadius: "75px",
-                fontSize: "1.3vw"
+                flexWrap: "wrap"
             }}>
 
                 <Container>

@@ -34,15 +34,11 @@
 
 .serviceCard {
     margin: 2rem 0;
-    justify-content: center;
-    text-align: center;
-    margin: 3rem;
+    margin: 3rem 0 3rem 32%;
+    width: fit-content;
     font-weight: 700;
-    font-size: 2vw;
-}
-
-.serviceCardBody {
-    padding: 12rem;
+    font-size: 12pt;
+    text-align: center;
 }
 
 .serviceForm {
@@ -113,10 +109,14 @@
         flex-wrap: wrap;
         flex-direction: row;
         justify-content: center;
+        gap: 10px;
     }
-
+    .serviceCard,.serviceCardBody, .serviceForm {
+        margin: 3rem 1rem;
+        width: 100%;
+        overflow: hidden;
+    }   
 }
-
 .reviewCards {
     display: flex;
     flex: 1;
@@ -143,8 +143,9 @@
 }
 
 .contactCard {
-    height: 30vh;
-    align-items: center;
+    height: fit-content;
+    vertical-align: middle;
+    text-align: center;
     width: 22rem;
 }
 
