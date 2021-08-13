@@ -43,11 +43,12 @@ export default function Home() {
       <div className={styles.description}>
         <p>
           <h4> - Our Services - </h4>
-          Success in any laundry starts with identifying the requirements and meeting them in the most efficient way possible.
-          To do this, you need a supplier that does more than simply supply machines.
-          With the backing of Electrolux, the world’s largest manufacturer of industrial laundry equipment,
-          Irish laundry systems has for over 20 yeas met these requirements.
-          From Hospitals to hairdressers ILS has consistently delivered the best possible solutions to there customers.
+          We do more than simply supply machines. 
+          For over 30 years, we have helped to make the world cleaner and laundry effortless by consistently 
+          delivering top quality equipment and specialised services you can rely on. 
+          With the backing of Electrolux, the world’s largest manufacturer of industrial laundry equipment, 
+          we constantly endeavour to identify and meet the requirements of each of our customers – 
+          from hospitals to hairdressers. 
         </p>
       </div>
       <hr className={styles.hrLines} />

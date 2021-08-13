@@ -8,18 +8,24 @@ export default function Footer() {
             <Navbar className={styles.footerStyle}>
                 <Container>
                     <div>
-                        <div>
-                            <Navbar.Text className={styles.footerLink}>
-                                <h5>Contact us:</h5>
-                                Phone: 555-5469 <br />
-                                Email - ils@sample.com <br />
-                                Address: 999 Ranelagh Village, Ranelagh
-                            </Navbar.Text>
-                        </div>
+                        <br/>
                         <div>
                             <img
                                 src="/electroluxPartnerWhite.png" style={{ width: '18rem' }}
                             />
+                        </div>
+                        <div className={styles.footerLink}>
+                            Ergonomics Certifying Institute (Ergocert)
+                        </div>
+                        <br/>
+                        <div>
+                            <Navbar.Text className={styles.footerLink}>
+                                <h5>Irish Laundry Systems</h5>
+                                Phone: +353 14910402 <br />
+                                Email - contact@irishlaundrysystems.com<br />
+                                Address: 95 Ranelagh Village, Ranelagh D06-V1W5 <br/>
+                                Dublin – Ireland <br/>
+                            </Navbar.Text>
                         </div>
                     </div>
                     <Navbar.Toggle />

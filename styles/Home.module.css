@@ -34,11 +34,15 @@
 
 .serviceCard {
     margin: 2rem 0;
-    margin: 3rem 0 3rem 32%;
+    margin: 3rem 6rem 3rem;
     width: fit-content;
-    font-weight: 700;
+    font-weight: 600;
     font-size: 12pt;
+    text-align: justify;
+}
+.serviceCard h4{
     text-align: center;
+    margin-top: 20px;
 }
 
 .serviceForm {
