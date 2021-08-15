@@ -43,12 +43,14 @@ export default function Home() {
       <div className={styles.description}>
         <p>
           <h4> - Our Services - </h4>
+          <h5>
           We do more than simply supply machines. 
           For over 30 years, we have helped to make the world cleaner and laundry effortless by consistently 
           delivering top quality equipment and specialised services you can rely on. 
           With the backing of Electrolux, the world’s largest manufacturer of industrial laundry equipment, 
           we constantly endeavour to identify and meet the requirements of each of our customers – 
           from hospitals to hairdressers. 
+          </h5>
         </p>
       </div>
       <hr className={styles.hrLines} />

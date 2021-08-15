@@ -9,14 +9,14 @@ export default function equipment() {
                 <Card.Body>
                     <Card.Text>
                         <br />
-                        <p>
-                            Our machines are supplied by Electrolux Professional, the largest manufacturer of industrial
-                            laundry equipment in the world. If you are looking for washers, dryers and accessories with
-                            certified ergonomic design, trustable hygiene and long-term savings, we can help.
-                            Or, in other words, if you are looking to save money,
-                            increase productivity and make your operation safe and effortless while reducing your staff’s
-                            physical strain, get to know our range of products.
-                </p>
+                            <h5>
+                                Our machines are supplied by Electrolux Professional, the largest manufacturer of industrial
+                                laundry equipment in the world. If you are looking for washers, dryers and accessories with
+                                certified ergonomic design, trustable hygiene and long-term savings, we can help.
+                                Or, in other words, if you are looking to save money,
+                                increase productivity and make your operation safe and effortless while reducing your staff’s
+                                physical strain, get to know our range of products.
+                            </h5>
                         <br />
                     </Card.Text>
                 </Card.Body>

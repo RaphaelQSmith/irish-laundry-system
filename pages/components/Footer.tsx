@@ -30,8 +30,8 @@ export default function Footer() {
                     </div>
                     <Navbar.Toggle />
                     <Navbar.Collapse className="justify-content-end">
-                        <Navbar.Text className={styles.footerText}>
-                            <Form className={styles.footerForm}>
+                        <Navbar.Text className={styles.footerForm}>
+                            <Form>
                                 <Row>
                                     <Col>
                                         <Form.Control type="text" placeholder="Name" />

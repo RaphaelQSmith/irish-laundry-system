@@ -34,7 +34,7 @@
 
 .serviceCard {
     margin: 2rem 0;
-    margin: 3rem 6rem 3rem;
+    margin: 3rem 0;
     width: fit-content;
     font-weight: 600;
     font-size: 12pt;
@@ -46,7 +46,7 @@
 }
 
 .serviceForm {
-    margin: 3rem 15rem;
+    margin: 3rem 8rem;
     margin: black;
 }
 
@@ -65,12 +65,12 @@
     flex: 1;
     flex-direction: column;
     width:auto;
-    margin: 8rem 15rem;
+    margin: 8rem 10rem;
     align-items: center; 
     border-style: "solid";
     border-color: "#F1B82D";
     border-width: "7px";
-
+    text-align: justify;
 }
 
 .equipRows {
@@ -94,7 +94,6 @@
     .equipCard {
         align-items: center;
         justify-content: center;
-        padding: 20px;
     }
 
     .caroussel {
@@ -107,7 +106,7 @@
     }
     .equipContainer{
         width: auto;
-        margin: auto;
+        margin: 3rem 1rem;
     }
     .blogPost{
         flex-wrap: wrap;
@@ -115,8 +114,8 @@
         justify-content: center;
         gap: 10px;
     }
-    .serviceCard,.serviceCardBody, .serviceForm {
-        margin: 3rem 1rem;
+    .serviceCard, .serviceForm, .serviceCardBody {
+        margin: 1rem auto;
         width: 100%;
         overflow: hidden;
     }   

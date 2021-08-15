@@ -42,7 +42,7 @@
     border-top-left-radius: 50px;
     overflow: hidden;
 }
-.footerText{
+.footerForm{
     color:white !important;
     margin-left: 15px;
     width: 15rem;
@@ -54,12 +54,15 @@
 
 @media screen and (max-width: 800px) {
     .headerInfo {
-      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
-    }
-    .footerText{
-        width: 20rem;
+      width: 100%; 
     }
     .headerContainer{
         height: "350px";
+    }
+    .footerForm{
+        visibility: hidden;
+    }
+    .footerStyle{
+        text-align: center;  
     }
 }
