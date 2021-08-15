@@ -18,7 +18,7 @@ export default function Header() {
                 }}>
                 <Container>
                     <Navbar.Brand href="/"><img style={{ width: "220px" }} src="/logo_size.jpg" alt="" /></Navbar.Brand>
-                    <Navbar.Collapse style={{ fontSize: "12pt",justifyContent: "center", textDecoration:"underline" }} id="responsive-navbar-nav">
+
                         <Nav className="ms-auto"> 
                             <Nav.Link style={{color: "white !important"}} href="/services">Services</Nav.Link>
                             <Nav.Link style={{color: "white !important"}} href="/rental">Rental</Nav.Link>
@@ -27,8 +27,7 @@ export default function Header() {
                             <Nav.Link style={{color: "white !important"}} href="/blog">Blog</Nav.Link>
                             <Nav.Link style={{color: "white !important"}} href="/aboutus">About Us</Nav.Link>
                         </Nav>
-                    </Navbar.Collapse>
-                    <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                    {/* <Navbar.Toggle aria-controls="responsive-navbar-nav" /> */}
                 </Container>
             </Navbar>
             <Navbar collapseOnSelect expand="lg" variant="dark" style={{

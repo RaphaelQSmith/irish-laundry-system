@@ -14,4 +14,7 @@ function MyApp({ Component, pageProps }: AppProps) {
     </div>
   )
 }
+// module.exports = {
+//   poweredByHeader: false,
+// }
 export default MyApp
