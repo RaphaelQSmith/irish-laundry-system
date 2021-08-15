@@ -17,7 +17,7 @@ export default function Header() {
                     width: "100%"
                 }}>
                 <Container>
-                    <Navbar.Brand href="/"><img style={{ width: "220px" }} src="/top_logo.png" alt="" /></Navbar.Brand>
+                    <Navbar.Brand href="/"><img style={{ width: "220px" }} src="/logo_size.jpg" alt="" /></Navbar.Brand>
                     <Navbar.Collapse style={{ fontSize: "12pt",justifyContent: "center", textDecoration:"underline" }} id="responsive-navbar-nav">
                         <Nav className="ms-auto"> 
                             <Nav.Link style={{color: "white !important"}} href="/services">Services</Nav.Link>
@@ -44,15 +44,10 @@ export default function Header() {
 
                 <Container>
                     <h6 className="navbar-text">
-                        Email: some@some.com -
-                        Phone: 555-1212
-                        
+                        +353 14910402 -
+                        contact@irishlaundrysystems.com                         
                     </h6>
-                    <h6 className="navbar-text">95 Ranelagh Village
-                        Ranelagh -
-                        Dublin 6
-                        D06-V1W5
-                        </h6>
+                    <h6 className="navbar-text">95 Ranelagh Village - Ranelagh D06-V1W5 - Dublin</h6>
 
                 </Container>
 
