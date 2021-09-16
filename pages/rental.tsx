@@ -29,11 +29,18 @@ export default function rental() {
                                 src="/WashMach/WH6-14.jpg"
                                 alt="Second slide"
                             />
+                        </Carousel.Item>                
+                        <Carousel.Item>
+                            <img
+                                className="d-block w-100"
+                                src="/Dryers/PD9.jpg"
+                                alt="First slide"
+                            />
                         </Carousel.Item>
                         <Carousel.Item>
                             <img
                                 className="d-block w-100"
-                                src="/WashMach/WH6-6.jpg"
+                                src="/Ironers/FIT1.jpg"
                                 alt="Third slide"
                             />
                         </Carousel.Item>
@@ -41,6 +48,27 @@ export default function rental() {
                             <img
                                 className="d-block w-100"
                                 src="/WashMach/PW9C.jpg"
+                                alt="First slide"
+                            />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img
+                                className="d-block w-100"
+                                src="/WashMach/Quickwash.jpg"
+                                alt="First slide"
+                            />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img
+                                className="d-block w-100"
+                                src="/WashMach/WS6-14.jpg"
+                                alt="First slide"
+                            />
+                        </Carousel.Item>
+                        <Carousel.Item>
+                            <img
+                                className="d-block w-100"
+                                src="/Dryers/T4900.jpg"
                                 alt="First slide"
                             />
                         </Carousel.Item>
