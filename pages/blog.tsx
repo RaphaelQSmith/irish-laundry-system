@@ -8,20 +8,12 @@ export default function blog() {
             <section className={styles.blogPost}>
                 <div><img src="/laundryfour.jpg" alt="" /></div>
                 <div>
-                    <h3>First Post</h3>
+                    <h3>COMING SOON </h3>
                     <p>
-                        Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
-                        totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt,
-                        explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit,
-                        sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est
-                        Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
-                        totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt,
-                        explicabo. Nemo enim ipsam voluptatem, quia voluptas sit, aspernatur aut odit aut fugit,
-                        sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est
-                    </p>
+                      </p>
                 </div>
             </section>
-            <div>
+            {/* <div>
                 <hr className={styles.hrLines} />
             </div>
             <section className={styles.blogPost}>
@@ -97,8 +89,8 @@ export default function blog() {
                         sed quia consequuntur magni dolores eos, qui ratione voluptatem sequi nesciunt, neque porro quisquam est
                     </p>
                 </div>
-            </section>
-        </div>
+            </section>*/}
+        </div> 
 
     )
 }

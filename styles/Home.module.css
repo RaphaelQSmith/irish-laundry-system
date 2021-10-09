@@ -140,7 +140,7 @@
     display: flex;
     flex: 1;
     flex: wrap;
-    margin: 3rem;
+    margin: 5rem 3rem 12rem 3rem;
     align-items: center;
     justify-content: space-around;
 }
@@ -149,7 +149,7 @@
     height: fit-content;
     vertical-align: middle;
     text-align: center;
-    width: 22rem;
+    width: 500px;
 }
 
 .blog {

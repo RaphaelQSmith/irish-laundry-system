@@ -10,6 +10,9 @@ export default function aboutus() {
                     <Card className={styles.contactCard}>
                         <Card.Body>
                             <Card.Title>COMPANIES LOGOS</Card.Title>
+                            <Card.Text>
+                                COMING SOON
+                            </Card.Text>
                         </Card.Body>
                     </Card>
                 </div>
