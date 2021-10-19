@@ -9,24 +9,26 @@ export default function aboutus() {
                 <div>
                     <Card className={styles.contactCard}>
                         <Card.Body>
-                            <Card.Title>COMPANIES LOGOS</Card.Title>
+                            <Card.Title>Contact Details</Card.Title>
                             <Card.Text>
-                                COMING SOON
+                                95 Ranelagh Village Ranelagh - Dublin 6 D06-V1W5 <br />
+                                Email: some@some.com <br />
+                                Phone: 555-1212
                             </Card.Text>
                         </Card.Body>
                     </Card>
                 </div>
             </div>
 
+            <hr className={styles.hrLines} />
+            
             <div className={styles.historyTimeline}>
                 <div>
                     <Card className={styles.contactCard}>
                         <Card.Body>
-                            <Card.Title>Contact Details</Card.Title>
+                            <Card.Title>COMPANIES LOGOS</Card.Title>
                             <Card.Text>
-                                95 Ranelagh Village Ranelagh - Dublin 6 D06-V1W5 <br />
-                                Email: some@some.com <br />
-                                Phone: 555-1212
+                                COMING SOON
                             </Card.Text>
                         </Card.Body>
                     </Card>
