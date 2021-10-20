@@ -42,43 +42,52 @@ export default function equipment() {
                         adds the correct amount of detergent according to the weight of the load.
                         </p>
                         <CardGroup className={styles.equipRows}>
+
+                            <Card className={styles.equipCard} >
+                                <Card.Title>Quickwash</Card.Title>
+                                <Card.Img variant="top" src="/WashMach/Quickwash.jpg" />
+                                <Card.Body>
+                                </Card.Body>
+                            </Card>
                             <Card className={styles.equipCard}>
                                 <Card.Title>WH6-6</Card.Title>
                                 <Card.Img variant="top" src="/WashMach/WH6-6.jpg" />
                                 <Card.Body>
                                 </Card.Body>
                             </Card>
-
                             <Card className={styles.equipCard}>
-                                <Card.Title>WH6-20</Card.Title>
-                                <Card.Img variant="top" src="/WashMach/WH6-20.jpg" />
+                                <Card.Title>WH6-8</Card.Title>
+                                <Card.Img variant="top" src="/WashMach/WH6-8.jpg" />
+                                <Card.Body>
+                                </Card.Body>
+                            </Card>
+                            <Card className={styles.equipCard}>
+                                <Card.Title>WH6-11</Card.Title>
+                                <Card.Img variant="top" src="/WashMach/WH6-11.jpg" />
                                 <Card.Body>
                                 </Card.Body>
                             </Card>
                             <Card className={styles.equipCard} >
-
                                 <Card.Title>WH6-14</Card.Title>
                                 <Card.Img variant="top" src="/WashMach/WH6-14.jpg" />
                                 <Card.Body>
                                 </Card.Body>
                             </Card>
-
                             <Card className={styles.equipCard}>
                                 <Card.Title>WH6-20</Card.Title>
                                 <Card.Img variant="top" src="/WashMach/WH6-20.jpg" />
                                 <Card.Body>
                                 </Card.Body>
                             </Card>
-
                             <Card className={styles.equipCard}>
-                                <Card.Title>WH6-7</Card.Title>
-                                <Card.Img variant="top" src="/WashMach/WH6-7.jpg" />
+                                <Card.Title>WH6-27</Card.Title>
+                                <Card.Img variant="top" src="/WashMach/WH6-27.jpg" />
                                 <Card.Body>
                                 </Card.Body>
                             </Card>
                             <Card className={styles.equipCard} >
-                                <Card.Title>WS6-14</Card.Title>
-                                <Card.Img variant="top" src="/WashMach/WS6-14.jpg" />
+                                <Card.Title>WH6-33</Card.Title>
+                                <Card.Img variant="top" src="/WashMach/WH6-33.jpg" />
                                 <Card.Body>
                                 </Card.Body>
                             </Card>
@@ -88,14 +97,6 @@ export default function equipment() {
                                 <Card.Body>
                                 </Card.Body>
                             </Card>
-
-                            <Card className={styles.equipCard} >
-                                <Card.Title>Quickwash</Card.Title>
-                                <Card.Img variant="top" src="/WashMach/Quickwash.jpg" />
-                                <Card.Body>
-                                </Card.Body>
-                            </Card>
-
                         </CardGroup>
                     </div>
 
