@@ -21,7 +21,7 @@ export default function rental() {
             </Card>
             <hr className={styles.hrLines} />
             <div>
-                    <Carousel variant="dark" className={styles.rentalCarrousel}>
+                    <Carousel className={styles.rentalCarrousel}>
                         <Carousel.Item>
                             <img
                                 className="d-block w-100"
