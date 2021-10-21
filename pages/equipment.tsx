@@ -222,12 +222,41 @@ Ironers are designed to provide you with time, energy and labour savings. Both c
                                 <Card.Img variant="top" src="/Ironers/IC433xx.jpg" />
                                 <Card.Body>
                                 </Card.Body>1
-                        </Card>
+                            </Card>
                         </CardGroup>
                     </div>
                 </Tab>
                 <Tab eventKey="barrier" title="Barrier Washers">
-
+                <Card className={styles.equipCard} >
+                                <Card.Title>IC433xx</Card.Title>
+                                <Card.Img variant="top" src="/Ironers/IC433xx.jpg" />
+                                <Card.Body>
+                                </Card.Body>1
+                            </Card>
+                            <Card className={styles.equipCard} >
+                                <Card.Title>IC433xx</Card.Title>
+                                <Card.Img variant="top" src="/Ironers/IC433xx.jpg" />
+                                <Card.Body>
+                                </Card.Body>1
+                            </Card>
+                            <Card className={styles.equipCard} >
+                                <Card.Title>IC433xx</Card.Title>
+                                <Card.Img variant="top" src="/Ironers/IC433xx.jpg" />
+                                <Card.Body>
+                                </Card.Body>1
+                            </Card>
+                            <Card className={styles.equipCard} >
+                                <Card.Title>IC433xx</Card.Title>
+                                <Card.Img variant="top" src="/Ironers/IC433xx.jpg" />
+                                <Card.Body>
+                                </Card.Body>1
+                            </Card>
+                            <Card className={styles.equipCard} >
+                                <Card.Title>IC433xx</Card.Title>
+                                <Card.Img variant="top" src="/Ironers/IC433xx.jpg" />
+                                <Card.Body>
+                                </Card.Body>1
+                            </Card>
                 </Tab>
             </Tabs>
         </div>
