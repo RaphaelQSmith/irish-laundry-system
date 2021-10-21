@@ -33,44 +33,45 @@ export default function equipment() {
                 <Tab eventKey="home" title="Washing Machines">
                     <div>
                         <p><h4 style={{ textAlign: "center", margin: "20px 0" }}> Washers</h4>
-                            The washers are designed for the lowest possible water, energy and detergent consumption.
-                        Automatic Savings technology, integrated into all the machines, weighs the linens and adjusts
-                        the water intake to the actual load. Maximum dewatering is guaranteed by Power Balance technology,
+                            The washers are designed for the lowest possible water, energy and detergent consumption.<br />
+                            <b>Automatic Savings</b> technology, integrated into all the machines, weighs the linens and adjusts
+                        the water intake to the actual load.<br /> <b>Maximum dewatering</b> is guaranteed by Power Balance technology,
                         which monitors unbalance and G factor adjustment throughout the extraction sequence.
-                        Integrated Savings help you avoid overloading and underloading, maximising profits and extending
-                        the lifetime of your washer. Intelligent Dosing automatically
+                        <br /> <b>Integrated Savings</b> help you avoid overloading and underloading, maximising profits and extending
+                        the lifetime of your washer.<br /> <b>Intelligent Dosing</b> automatically
                         adds the correct amount of detergent according to the weight of the load.
                         </p>
                         <CardGroup className={styles.equipRows}>
 
                             <Card className={styles.equipCard} >
                                 <Card.Title>Quickwash</Card.Title>
-                                <Card.Img variant="top" src="/WashMach/Quickwash.jpg" />
+
                                 <Card.Body>
+                                    <Card.Img variant="top" src="/WashMach/Quickwash.jpg" />
                                 </Card.Body>
                             </Card>
                             <Card className={styles.equipCard}>
                                 <Card.Title>WH6-6</Card.Title>
-                                <Card.Img variant="top" src="/WashMach/WH6-6.jpg" />
                                 <Card.Body>
+                                    <Card.Img variant="top" src="/WashMach/WH6-6.jpg" />
                                 </Card.Body>
                             </Card>
                             <Card className={styles.equipCard}>
                                 <Card.Title>WH6-8</Card.Title>
-                                <Card.Img variant="top" src="/WashMach/WH6-8.jpg" />
                                 <Card.Body>
+                                <Card.Img variant="top" src="/WashMach/WH6-8.jpg" />
                                 </Card.Body>
                             </Card>
                             <Card className={styles.equipCard}>
                                 <Card.Title>WH6-11</Card.Title>
-                                <Card.Img variant="top" src="/WashMach/WH6-11.jpg" />
                                 <Card.Body>
+                                <Card.Img variant="top" src="/WashMach/WH6-11.jpg" />
                                 </Card.Body>
                             </Card>
                             <Card className={styles.equipCard} >
                                 <Card.Title>WH6-14</Card.Title>
-                                <Card.Img variant="top" src="/WashMach/WH6-14.jpg" />
                                 <Card.Body>
+                                    <Card.Img variant="top" src="/WashMach/WH6-14.jpg" />
                                 </Card.Body>
                             </Card>
                             <Card className={styles.equipCard}>

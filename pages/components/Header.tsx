@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Collapse, Nav, Navbar, Container, NavbarBrand, NavItem, NavLink, NavDropdown } from 'react-bootstrap';
+import { Nav, Navbar, Container} from 'react-bootstrap';
 
 export default function Header() {
     const [collapsed, setCollapsed] = useState(true);
@@ -17,13 +17,13 @@ export default function Header() {
                     width: "100%"
                 }}>
                 <Container>
-                    <Navbar.Brand href="/"><img style={{ width: "220px" }} src="/logo_size.jpg" alt="" /></Navbar.Brand>
+                    <Navbar.Brand href="/"><img style={{ width: "220px" }} src="/logo_size_invert.jpg" alt="" /></Navbar.Brand>
 
                         <Nav className="ms-auto"> 
                             <Nav.Link style={{color: "white !important"}} href="/services">Services</Nav.Link>
                             <Nav.Link style={{color: "white !important"}} href="/rental">Rental</Nav.Link>
                             <Nav.Link style={{color: "white !important"}} href="/equipment">Equipment</Nav.Link>
-                            <Nav.Link style={{color: "white !important"}} href="/clients">Clients</Nav.Link>
+                            {/* <Nav.Link style={{color: "white !important"}} href="/clients">Clients</Nav.Link> */}
                             <Nav.Link style={{color: "white !important"}} href="/blog">Blog</Nav.Link>
                             <Nav.Link style={{color: "white !important"}} href="/aboutus">About Us</Nav.Link>
                         </Nav>
@@ -46,7 +46,7 @@ export default function Header() {
                         +353 14910402 -
                         contact@irishlaundrysystems.com                         
                     </h6>
-                    <h6 className="navbar-text">95 Ranelagh Village - Ranelagh D06-V1W5 - Dublin</h6>
+                    <h6 className="navbar-text">95 Ranelagh Village, Ranelagh, Dublin 6</h6>
 
                 </Container>
 

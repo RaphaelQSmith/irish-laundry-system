@@ -1,5 +1,5 @@
 import styles from '../styles/Home.module.css'
-import { Button, Card, Carousel, Container } from 'react-bootstrap'
+import { Card, Carousel, Container } from 'react-bootstrap'
 import React from 'react'
 
 export default function rental() {
@@ -21,8 +21,7 @@ export default function rental() {
             </Card>
             <hr className={styles.hrLines} />
             <div>
-                <Container>
-                    <Carousel fade className={styles.rentalCarrousel}>
+                    <Carousel variant="dark" className={styles.rentalCarrousel}>
                         <Carousel.Item>
                             <img
                                 className="d-block w-100"
@@ -73,7 +72,6 @@ export default function rental() {
                             />
                         </Carousel.Item>
                     </Carousel>
-                </Container>
             </div>
         </div>
     )

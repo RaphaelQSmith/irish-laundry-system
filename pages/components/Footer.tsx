@@ -11,7 +11,7 @@ export default function Footer() {
                         <br/>
                         <div>
                             <img
-                                src="/electroluxPartnerWhite.png" style={{ width: '18rem' }}
+                                src="/electroluxPartner.png" style={{ width: '18rem' }}
                             />
                         </div>
                         <div className={styles.footerLink}>
@@ -21,10 +21,11 @@ export default function Footer() {
                         <div>
                             <Navbar.Text className={styles.footerLink}>
                                 <h5>Irish Laundry Systems</h5>
-                                Phone: +353 14910402 <br />
-                                Email - contact@irishlaundrysystems.com<br />
-                                Address: 95 Ranelagh Village, Ranelagh D06-V1W5 <br/>
-                                Dublin – Ireland <br/>
+                                95 Ranelagh Village<br/>
+                                Ranelagh<br/>
+                                Dublin 6<br/>
+                                D06-V1W5<br/>
+                                Dublin – Ireland<br/>
                             </Navbar.Text>
                         </div>
                     </div>
