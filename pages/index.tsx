@@ -53,7 +53,9 @@ export default function Home() {
           </h5>
         </p>
       </div>
-      <hr className={styles.hrLines} />
+
+      {/* REMOVED UNTIL THE INFO IS READY */}
+      {/* <hr className={styles.hrLines} />
       <div className={styles.cardRow}>
         <Card style={{ width: '18rem' }}>
           <Card.Body>
@@ -92,8 +94,8 @@ export default function Home() {
 
 
           </Card.Body>
-        </Card>
-      </div>
+        </Card> */}
+      {/* </div> */}
     </div>
   )
 }

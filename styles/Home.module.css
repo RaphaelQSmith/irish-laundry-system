@@ -1,7 +1,7 @@
 .caroussel {
     display: flex;
     flex: 1;
-    margin: 3rem 15rem;
+    margin: 3rem 8rem;
     align-items: center;
     justify-content: center;
 }
@@ -115,8 +115,7 @@
         gap: 10px;
     }
     .serviceCard, .serviceForm, .serviceCardBody {
-        margin: 1rem auto;
-        width: 100%;
+        margin: 3rem;
         overflow: hidden;
     }   
 }
