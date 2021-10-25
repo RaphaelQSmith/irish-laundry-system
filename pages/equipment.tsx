@@ -59,13 +59,13 @@ export default function equipment() {
                             <Card className={styles.equipCard}>
                                 <Card.Title>WH6-8</Card.Title>
                                 <Card.Body>
-                                <Card.Img variant="top" src="/WashMach/WH6-8.jpg" />
+                                    <Card.Img variant="top" src="/WashMach/WH6-8.jpg" />
                                 </Card.Body>
                             </Card>
                             <Card className={styles.equipCard}>
                                 <Card.Title>WH6-11</Card.Title>
                                 <Card.Body>
-                                <Card.Img variant="top" src="/WashMach/WH6-11.jpg" />
+                                    <Card.Img variant="top" src="/WashMach/WH6-11.jpg" />
                                 </Card.Body>
                             </Card>
                             <Card className={styles.equipCard} >
@@ -188,10 +188,38 @@ export default function equipment() {
                             </Card>
                         </CardGroup>
                     </div>
-
-                    {/* IRONERS */}
-
                 </Tab>
+
+                <Tab eventKey="cabinet" title="Drying Cabinets">
+                    <CardGroup className={styles.equipRows}>
+                        <Card className={styles.equipCard} >
+                            <Card.Title>DC6-4</Card.Title>
+                            <Card.Img variant="top" src="/Dryers/closets/DC6-4-left.jpg" />
+                            <Card.Body>
+                            </Card.Body>
+                            </Card>
+                        <Card className={styles.equipCard} >
+                            <Card.Title>DC6-8</Card.Title>
+                            <Card.Img variant="top" src="/Dryers/closets/DC6-8-left.jpg" />
+                            <Card.Body>
+                            </Card.Body>
+                            </Card>
+                        <Card className={styles.equipCard} >
+                            <Card.Title>DC6-10</Card.Title>
+                            <Card.Img variant="top" src="/Dryers/closets/DC6-10HP-left.jpg" />
+                            <Card.Body>
+                            </Card.Body>
+                            </Card>
+                        <Card className={styles.equipCard} >
+                            <Card.Title>DC6-14</Card.Title>
+                            <Card.Img variant="top" src="/Dryers/closets/DC6-14-left-cutout.jpg" />
+                            <Card.Body>
+                            </Card.Body>
+                            </Card>
+                    </CardGroup>
+                </Tab>
+
+
                 <Tab eventKey="contact" title="Ironers">
                     <div>
                         <p> <h4 style={{ textAlign: "center", margin: "20px 0" }}> Rotary Ironers, Cylinder Ironers, Drying Cabinets and Finishing Tables</h4>
@@ -227,36 +255,32 @@ Ironers are designed to provide you with time, energy and labour savings. Both c
                     </div>
                 </Tab>
                 <Tab eventKey="barrier" title="Barrier Washers">
-                <Card className={styles.equipCard} >
-                                <Card.Title>IC433xx</Card.Title>
-                                <Card.Img variant="top" src="/Ironers/IC433xx.jpg" />
-                                <Card.Body>
-                                </Card.Body>1
+                <CardGroup className={styles.equipRows}>
+                    <Card className={styles.equipCard} >
+                        <Card.Title>WB6-20</Card.Title>
+                        <Card.Img variant="top" src="/Barrier/WB6-20.jpg" />
+                        <Card.Body>
+                        </Card.Body>
                             </Card>
-                            <Card className={styles.equipCard} >
-                                <Card.Title>IC433xx</Card.Title>
-                                <Card.Img variant="top" src="/Ironers/IC433xx.jpg" />
-                                <Card.Body>
-                                </Card.Body>1
+                    <Card className={styles.equipCard} >
+                        <Card.Title>WB6-27</Card.Title>
+                        <Card.Img variant="top" src="/Barrier/WB6-27.jpg" />
+                        <Card.Body>
+                        </Card.Body>
                             </Card>
-                            <Card className={styles.equipCard} >
-                                <Card.Title>IC433xx</Card.Title>
-                                <Card.Img variant="top" src="/Ironers/IC433xx.jpg" />
-                                <Card.Body>
-                                </Card.Body>1
+                    <Card className={styles.equipCard} >
+                        <Card.Title>WB6-35</Card.Title>
+                        <Card.Img variant="top" src="/Barrier/WB6-35.jpg" />
+                        <Card.Body>
+                        </Card.Body>
                             </Card>
-                            <Card className={styles.equipCard} >
-                                <Card.Title>IC433xx</Card.Title>
-                                <Card.Img variant="top" src="/Ironers/IC433xx.jpg" />
-                                <Card.Body>
-                                </Card.Body>1
+                    <Card className={styles.equipCard} >
+                        <Card.Title>WB5130H</Card.Title>
+                        <Card.Img variant="top" src="/Barrier/WB5130H.jpg" />
+                        <Card.Body>
+                        </Card.Body>
                             </Card>
-                            <Card className={styles.equipCard} >
-                                <Card.Title>IC433xx</Card.Title>
-                                <Card.Img variant="top" src="/Ironers/IC433xx.jpg" />
-                                <Card.Body>
-                                </Card.Body>1
-                            </Card>
+                            </CardGroup>
                 </Tab>
             </Tabs>
         </div>
