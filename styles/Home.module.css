@@ -32,9 +32,17 @@
     margin: 10rem 0;
 }
 
+.serviceForm{
+    margin: 2rem 10rem;
+    overflow: hidden;
+}
+
+.serviceForm Form{
+    margin: 5.5rem;
+}
+
 .serviceCard {
     margin: 2rem 0;
-    margin: 3rem 0;
     width: fit-content;
     font-weight: 600;
     font-size: 12pt;
@@ -42,12 +50,7 @@
 }
 .serviceCard h4{
     text-align: center;
-    margin-top: 20px;
-}
-
-.serviceForm {
-    margin: 3rem 8rem;
-    margin: black;
+    margin-top: 80px;
 }
 
 .rentalCarrousel {
@@ -115,7 +118,7 @@
         gap: 10px;
     }
     .serviceCard, .serviceForm, .serviceCardBody {
-        margin: 3rem;
+        margin: 1rem;
         overflow: hidden;
     }   
 }
