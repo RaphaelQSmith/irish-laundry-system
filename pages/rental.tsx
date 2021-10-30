@@ -1,5 +1,5 @@
 import styles from '../styles/Home.module.css'
-import { Card, Carousel, Container } from 'react-bootstrap'
+import { Card, Carousel } from 'react-bootstrap'
 import React from 'react'
 
 export default function rental() {

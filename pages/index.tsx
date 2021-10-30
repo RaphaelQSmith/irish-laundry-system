@@ -1,7 +1,6 @@
-import React from 'react'
-import { Button, Card, Carousel } from 'react-bootstrap'
+import { Carousel } from 'react-bootstrap'
 import styles from '../styles/Home.module.css'
-import 'bootstrap/dist/css/bootstrap.min.css'
+// import 'bootstrap/dist/css/bootstrap.min.css'
 
 
 export default function Home() {
