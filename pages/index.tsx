@@ -8,15 +8,13 @@ export default function Home() {
   return (
     <div>
       <div>
-        <Carousel fade className={styles.caroussel}>
+        <Carousel className={styles.caroussel}>
           <Carousel.Item>
             <img
               className="d-block w-100"
               src="/resizeddrum.png"
               alt="First slide"
             />
-            <Carousel.Caption>
-            </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
             <img
