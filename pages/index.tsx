@@ -22,9 +22,6 @@ export default function Home() {
               src="/resizedworker.png"
               alt="Second slide"
             />
-
-            <Carousel.Caption>
-            </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
             <img
@@ -32,12 +29,12 @@ export default function Home() {
               src="/resizedmachines.png"
               alt="Third slide"
             />
-            <Carousel.Caption>
-            </Carousel.Caption>
-          </Carousel.Item>
+            </Carousel.Item>
         </Carousel>
       </div>
+
       <hr className={styles.hrLines} />
+      
       <div className={styles.description}>
         <p>
           <h4> - Our Services - </h4>

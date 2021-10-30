@@ -1,7 +1,9 @@
 .caroussel {
     display: flex;
     flex: 1;
-    margin: 3rem 8rem;
+    margin: auto;
+    height: 500px;
+    width: 1000px;
     align-items: center;
     justify-content: center;
 }
