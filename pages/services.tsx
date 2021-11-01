@@ -10,15 +10,15 @@ export default function services() {
                     {/* <Card.Header>Services</Card.Header> */}
                     <Card.Body className={styles.serviceCardBody}>
                         <Card.Text>
-                            <h4>Preventative Maintenance</h4> <br/>
+                            <h4>Preventative Maintenance</h4> <br />
                             <h5>
                                 For your peace of mind, safety and compliance concerns, we offer a simple and effective Preventative Maintenance program for your laundry equipment.
                                 We inspect the equipment twice a year and on each visit, we perform all services as per a specific checklist.
                                 You will be furnished with a completed copy of the report indicating the condition of the machines and what repairs,
                                 if any, are necessary resulting from each inspection.
-                                Preventative Maintenance contract holders are given preferential service over all types of services and a discounted labour rate for improvement or repair of equipment (upon proper authorisation). <br/>
+                                Preventative Maintenance contract holders are given preferential service over all types of services and a discounted labour rate for improvement or repair of equipment (upon proper authorisation). <br />
                             </h5>
-                            <h4> Equipment Repair</h4> <br/>
+                            <h4> Equipment Repair</h4> <br />
                             <h5>
                                 For customers who did not buy the equipment from us and/or do not have a Preventative Maintenance Agreement in place,
                                 our call-out charge is €60 per hour (min 3 hours) plus VAT @ 13.5%. Travelling time and spare parts are charged separately.
@@ -31,7 +31,7 @@ export default function services() {
             <hr className={styles.hrLines} />
             <div>
                 <h4 style={{ textAlign: 'center', paddingBottom: '3rem' }}>Tell us what you need</h4>
-                <Form>
+                {/* <Form>
                     <Row>
                         <Col>
                             <Row>
@@ -82,7 +82,22 @@ export default function services() {
                     </Button>
                         </Col>
                     </Row>
-                </Form>
+                </Form> */}
+                <div style={{display: 'flex',justifyContent:'center', alignItems:'center'}}>
+                    <form action="https://formsubmit.co/9ef0d79b288ee335a5641e9b6f3c248a" method="POST" >
+                        <label>Name:</label><br />
+                        <input type="text" id="name" name="name" /><br />
+                        <label>Email</label><br />
+                        <input type="email" id="email" name="email" /><br />
+                        <label>Phone</label><br />
+                        <input type="text" id="phone" name="phone" /><br />
+                        <label>Company</label><br />
+                        <input type="text" id="company" name="company" /><br />
+                        <label>Problem description</label> <br />
+                        <textarea id="problem" name="problem" rows={8} cols={40}></textarea> <br />
+                        <input type="submit" value="Submit" />
+                    </form>
+                </div>
             </div>
         </div>
     )
